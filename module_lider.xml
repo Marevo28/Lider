@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_lider" default="compile.module.lider">
+  <dirname property="module.lider.basedir" file="${ant.file.module_lider}"/>
+  
+  <property name="module.jdk.home.lider" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.lider" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.lider" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.lider" value="-encoding UTF-8 -source 12 -target 12 ${compiler.args}"/>
+  
+  <property name="lider.output.dir" value="${module.lider.basedir}/out/production/Lider"/>
+  <property name="lider.testoutput.dir" value="${module.lider.basedir}/out/test/Lider"/>
+  
+  <path id="lider.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="lider.module.production.classpath">
+    <path refid="${module.jdk.classpath.lider}"/>
+    <path refid="library.javafx-swt.classpath"/>
+    <path refid="library.mysql-connector-java-6.0.6.classpath"/>
+  </path>
+  
+  <path id="lider.runtime.production.module.classpath">
+    <pathelement location="${lider.output.dir}"/>
+    <path refid="library.javafx-swt.classpath"/>
+    <path refid="library.mysql-connector-java-6.0.6.classpath"/>
+  </path>
+  
+  <path id="lider.module.classpath">
+    <path refid="${module.jdk.classpath.lider}"/>
+    <pathelement location="${lider.output.dir}"/>
+    <path refid="library.javafx-swt.classpath"/>
+    <path refid="library.mysql-connector-java-6.0.6.classpath"/>
+  </path>
+  
+  <path id="lider.runtime.module.classpath">
+    <pathelement location="${lider.testoutput.dir}"/>
+    <pathelement location="${lider.output.dir}"/>
+    <path refid="library.javafx-swt.classpath"/>
+    <path refid="library.mysql-connector-java-6.0.6.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.lider">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.lider">
+    <patternset refid="excluded.from.module.lider"/>
+  </patternset>
+  
+  <path id="lider.module.sourcepath">
+    <dirset dir="${module.lider.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.lider" depends="compile.module.lider.production,compile.module.lider.tests" description="Compile module Lider"/>
+  
+  <target name="compile.module.lider.production" depends="register.custom.compilers" description="Compile module Lider; production classes">
+    <mkdir dir="${lider.output.dir}"/>
+    <javac2 destdir="${lider.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.lider}/javac">
+      <compilerarg line="${compiler.args.lider}"/>
+      <bootclasspath refid="lider.module.bootclasspath"/>
+      <classpath refid="lider.module.production.classpath"/>
+      <src refid="lider.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.lider"/>
+    </javac2>
+    
+    <copy todir="${lider.output.dir}">
+      <fileset dir="${module.lider.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.lider.tests" depends="register.custom.compilers,compile.module.lider.production" description="compile module Lider; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.lider" description="cleanup module">
+    <delete dir="${lider.output.dir}"/>
+    <delete dir="${lider.testoutput.dir}"/>
+  </target>
+</project>
