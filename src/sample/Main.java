@@ -18,7 +18,7 @@ public class Main extends Application {
 
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Lider-Express");
-        primaryStage.setScene(new Scene(root, 870, 940));
+        primaryStage.setScene(new Scene(root, 1200, 900));
         primaryStage.show();
     }
 

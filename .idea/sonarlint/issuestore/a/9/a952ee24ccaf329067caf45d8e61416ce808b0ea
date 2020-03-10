@@ -1,351 +1,450 @@
 
-}	java:S116?"\Rename this field "TextPositionMNG20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¿ñòùÿÿÿÿ8øÛÕ¡‹.
-R
-java:S1659Y"0Declare "ToggleMNG20ostanov" on a separate line.(æâê„øÿÿÿÿ8õ˜Ù¡‹.
-†	java:S116Y"eRename this field "ToggleMNG20zapisivpasporte" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8õŠÜ¡‹.
-n	java:S117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßèË›8øÙÏç‰.
-J
-java:S1602Ê",Remove useless curly braces around statement(ÅßÉ÷8ÁãÜ¡‹.
-J
-java:S1602 ",Remove useless curly braces around statement(ÊÎ†¨8ÁãÜ¡‹.
+s	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¿Óøûÿÿÿÿ8şÚ«¶‹.
+P
+java:S1659³"-Declare "BoxBND20PersNK7" on a separate line.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+W
+java:S4973Ô"9Use the "equals" method if value comparison was intended.(‹Î¬Œ8şÚ«¶‹.
+T
+java:S1659±"1Declare "BoxBND20PersBezNK11" on a separate line.(°“±ùÿÿÿÿ8şÚ«¶‹.
+x	java:S116µ"[Rename this field "BoxBND20PersNK15" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‚ˆŸ8şÚ«¶‹.
+N
+java:S1659¯"0Declare "BoxBND20PersBezNK8" on a separate line.(³šôº8şÚ«¶‹.
+|	java:S116["[Rename this field "RadBnd20Skvoznoi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÔ¬Ëÿÿÿÿÿ8şÚ«¶‹.
+W
+java:S4973ç"9Use the "equals" method if value comparison was intended.(š›Ò¢8şÚ«¶‹.
 Q
-java:S1659Y"/Declare "ToggleMNG20luklaz" on a separate line.(æâê„øÿÿÿÿ8¾ÑØ¡‹.
-n	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¼®÷8øÙÏç‰.
-{	java:S116}"ZRename this field "ButBnd20UdeOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ñ»áûÿÿÿÿ8øÙÏç‰.
-z	java:S116¯"]Rename this field "BoxBND20PersBezNK1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8×ÌªäŠ.
-~	java:S116O"]Rename this field "ToggleBND20ostanov" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û—Òûÿÿÿÿ8ôş¹ç‰.
-Z
-java:S1659Y"8Declare "ToggleMNG20vnutreniiosmotr" on a separate line.(æâê„øÿÿÿÿ8ìÁÙ¡‹.
-t	java:S116e"SRename this field "ButKurva" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ§„Éıÿÿÿÿ8‰Ğç‰.
-n	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÎ†¨8øÙÏç‰.
-}	java:S116¥"[Rename this field "ButMng20BgUrSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º Çíúÿÿÿÿ8øÙÏç‰.
-z	java:S116¯"]Rename this field "BoxBND20PersBezNK8" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8Ù¯äŠ.
-}	java:S116Y"\Rename this field "ToggleMNG20naryad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8¯îØ¡‹.
-|	java:S116§"ZRename this field "ButMng20RvsSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã§ŠŠÿÿÿÿÿ8øÙÏç‰.
-O
-java:S1602ö",Remove useless curly braces around statement(÷ğÓ¡ûÿÿÿÿ8ÁãÜ¡‹.
-g	java:S117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ‹ƒ¨
-s	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ğ¬Êüÿÿÿÿ8ƒÎ‡¼‰.
-|	java:S116!"[Rename this field "BND20PersBezNK14" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶°ûøÿÿÿÿ8¶Ğ¡‹.
-z	java:S116¯"]Rename this field "BoxBND20PersBezNK6" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8›‘¯äŠ.
-y	java:S116c"]Rename this field "ButSendSpisokBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°”ı³8Õ’Ë¡‹.
-	java:S116W"^Rename this field "DataOstanovEndBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Œ•åúÿÿÿÿ8İ×¡‹.
-|	java:S116o"[Rename this field "ButBnd20AgzuOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æåÂÀøÿÿÿÿ8øÙÏç‰.
-n	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎéÄë8øÙÏç‰.
-O
-java:S1602…",Remove useless curly braces around statement(÷¬ˆüÿÿÿÿ8ÁãÜ¡‹.
-n	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¡«û8øÙÏç‰.
-O
-java:S1602©",Remove useless curly braces around statement(òŞÛ”øÿÿÿÿ8ÁãÜ¡‹.
-Q
-java:S1659?"/Declare "TextPositionMNG20" on a separate line.(©¿ñòùÿÿÿÿ8øÛÕ¡‹.
+java:S1659W"/Declare "ToggleMNG20luklaz" on a separate line.(æâê„øÿÿÿÿ8şÚ«¶‹.
+J
+java:S1602Á",Remove useless curly braces around statement(—÷µş8æ¦­¶‹.
+W
+java:S4973î"9Use the "equals" method if value comparison was intended.(©Ş´8şÚ«¶‹.
+T
+java:S1659M"2Declare "TextPrimechanieBND20" on a separate line.(²¥Îƒúÿÿÿÿ8Ñ´¶‹.
+z	java:S116¯"]Rename this field "BoxBND20PersBezNK7" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8şÚ«¶‹.
 L
-java:S1659@"/Declare "TextPositionBND20" on a separate line.(»ìÇó8ñşÕ¡‹.
-~	java:S116—"\Rename this field "ButMng20MoneyOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öˆû¹üÿÿÿÿ8øÙÏç‰.
-~	java:S116•"\Rename this field "ButMng20NasosOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ØÓšùÿÿÿÿ8øÙÏç‰.
-~	java:S116Y"]Rename this field "ToggleMNG20ostanov" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8õ˜Ù¡‹.
-n	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¼®÷8øÙÏç‰.
-O
-java:S1602ˆ",Remove useless curly braces around statement(èÉ×ƒûÿÿÿÿ8ÁãÜ¡‹.
-w	java:S116"[Rename this field "BND20PersBezNK12" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(· …ı8¶Ğ¡‹.
-z	java:S116Y"`Rename this field "ToggleMNG20ispolnenie" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ
-€	java:S116±"^Rename this field "BoxBND20PersBezNK16" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8¾©±äŠ.
-n	java:S117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ã³É8äÃäŠ.
-T
-java:S1659±"1Declare "BoxBND20PersBezNK12" on a separate line.(°“±ùÿÿÿÿ8µƒ±äŠ.
-	java:S116U"^Rename this field "DataOstanovEndMNG20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢À‡íûÿÿÿÿ8¿×¡‹.
-n	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¾Ï8øÙÏç‰.
-w	java:S116 "[Rename this field "BND20PersBezNK13" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æİ°‹8¶Ğ¡‹.
-O
-java:S1602Ü",Remove useless curly braces around statement(‘Ò²Îùÿÿÿÿ8ÁãÜ¡‹.
-O
-java:S1602í",Remove useless curly braces around statement(»öÖÇøÿÿÿÿ8ÁãÜ¡‹.
-m	java:S117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş™àQ8øÙÏç‰.
-p	java:S1164"VRename this field "ZavTuColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›øâÍşÿÿÿÿ
-q	java:S1160"WRename this field "TypeTuColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ó‹Èÿÿÿÿÿ
-x	java:S116s"\Rename this field "ButBnd20SosudSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Êø8øÙÏç‰.
-q
-java:S1104´"NMake id a static final constant or non-public and provide accessors if needed.(ƒ€«Îûÿÿÿÿ8øÙÏç‰.
-v	java:S116"ZRename this field "BND20PersBezNK3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø§ŸÖ8¶Ğ¡‹.
-l	java:S117ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ÚŠùûÿÿÿÿ
-…	java:S116Y"dRename this field "ToggleMNG20defctsvedomost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8±“Ú¡‹.
-s	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¬ˆüÿÿÿÿ8øÙÏç‰.
-M
-java:S1659a"0Declare "ButSendSpisokMNG20" on a separate line.(ÈÃµÅ8ÙšÊ¡‹.
-{	java:S116"ZRename this field "BND20PersBezNK8" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¬„Àøÿÿÿÿ8¶Ğ¡‹.
-f	java:S116'"QRename this field "Spisok" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾­Óó
-p	java:S116@"[Rename this field "TextBnd20PapOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ìÇó
+java:S1659µ".Declare "BoxBND20PersNK12" on a separate line.(«‚ˆŸ8şÚ«¶‹.
+z	java:S116w"YRename this field "ButBnd20SkOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óæîúÿÿÿÿ8şÚ«¶‹.
+q	java:S116"URename this field "BND20Pers2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óéİ8Ô‚ê¢‹.
 J
-java:S1602ğ",Remove useless curly braces around statement(ŠˆÀÃ8ÁãÜ¡‹.
-Q
-java:S1659Y"/Declare "ToggleMNG20naryad" on a separate line.(æâê„øÿÿÿÿ8¯îØ¡‹.
-p	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦±»Ïÿÿÿÿÿ8ÁãÜ¡‹.
-z	java:S116w"YRename this field "ButBnd20UaOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è®“°úÿÿÿÿ8øÙÏç‰.
-v	java:S116u"ZRename this field "ButBnd20RvsOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä‡¡œ8øÙÏç‰.
-€	java:S116S"dRename this field "ToggleBND20defctsvedomost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÄ’×8ôş¹ç‰.
-T
-java:S1659±"1Declare "BoxBND20PersBezNK11" on a separate line.(°“±ùÿÿÿÿ8µƒ±äŠ.
-Z
-java:S1659Y"8Declare "ToggleMNG20zapisivpasporte" on a separate line.(æâê„øÿÿÿÿ8õŠÜ¡‹.
-l	java:S117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ğ¬Êüÿÿÿÿ
-s	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÉ×ƒûÿÿÿÿ8øÙÏç‰.
-w	java:S116{"[Rename this field "ButBnd20BgUrOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ÑÏÓ8øÙÏç‰.
-z	java:S116¯"]Rename this field "BoxBND20PersBezNK4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8›‘¯äŠ.
-n	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ‹ƒ¨8ƒÎ‡¼‰.
-s	java:S117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÔÇ‘ıÿÿÿÿ8ƒÎ‡¼‰.
-s	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¿ûÌıÿÿÿÿ8øÙÏç‰.
-v	java:S116"ZRename this field "BND20PersBezNK5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ—×à8¶Ğ¡‹.
-O
-java:S1602”",Remove useless curly braces around statement(›³üÇùÿÿÿÿ8ÁãÜ¡‹.
-g	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’æÈí
-s	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»öÖÇøÿÿÿÿ8øÙÏç‰.
-s	java:S117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿû›¯úÿÿÿÿ8øÙÏç‰.
-\
-java:S4973È"9Use the "equals" method if value comparison was intended.(Ë„åŒúÿÿÿÿ8øÙÏç‰.
-z	java:S116G"_Rename this field "ToggleBND20factshurf" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èû¯8ôş¹ç‰.
-J
-java:S1602š",Remove useless curly braces around statement(—÷µş8ÁãÜ¡‹.
-y	java:S116a"]Rename this field "ButSendSpisokMNG20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÃµÅ8ÙšÊ¡‹.
-\
-java:S4973¿"9Use the "equals" method if value comparison was intended.(Œ³²“øÿÿÿÿ8øÙÏç‰.
-w	java:S116"[Rename this field "BND20PersBezNK11" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à¾å½8¶Ğ¡‹.
-n	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¢°ß8øÙÏç‰.
-\
-java:S4973Ö"9Use the "equals" method if value comparison was intended.(ñ•Œ¿şÿÿÿÿ8…¿İç‰.
-T
-java:S1659±"1Declare "BoxBND20PersBezNK10" on a separate line.(°“±ùÿÿÿÿ8µƒ±äŠ.
-n	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÇºí8òÿ’äŠ.
-n	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅßÉ÷8øÙÏç‰.
+java:S1602²",Remove useless curly braces around statement(öøú–8æ¦­¶‹.
+S
+java:S1659W"1Declare "ToggleMNG20actshurf" on a separate line.(æâê„øÿÿÿÿ8şÚ«¶‹.
+w	java:S116Ÿ"ZRename this field "ButMng20UaSaven" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô£¦8şÚ«¶‹.
 I
-java:S1602Í",Remove useless curly braces around statement(ş™àQ8ÁãÜ¡‹.
-N
-java:S1659a"1Declare "ButClearSpisokMNG20" on a separate line.(ÈÃµÅ8ÙšÊ¡‹.
-z	java:S116¯"]Rename this field "BoxBND20PersBezNK5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8›‘¯äŠ.
-u	java:S116?"[Rename this field "TextMng20PapOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¿ñòùÿÿÿÿ
-n	java:S116<"ZRename this field "SkvazhinaColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­úˆ9
-w
-java:S1104?"\Make TextMng20PapOpen a static final constant or non-public and provide accessors if needed.(©¿ñòùÿÿÿÿ
-	java:S116Q"eRename this field "ToggleBND20vnutreniiosmotr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½·ê÷8ôş¹ç‰.
-~	java:S116ƒ"\Rename this field "ButBnd20MoneyOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒµØ¨øÿÿÿÿ8øÙÏç‰.
-{	java:S116"ZRename this field "BND20PersBezNK7" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎŒñŞüÿÿÿÿ8¶Ğ¡‹.
-n	java:S117£"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ÙËŠ8øÙÏç‰.
-O
-java:S1602ü",Remove useless curly braces around statement(ş¿Óøûÿÿÿÿ8ÁãÜ¡‹.
-~	java:S116"\Rename this field "ButMng20TechnSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üêİ¹ÿÿÿÿÿ8øÙÏç‰.
-€	java:S116k"_Rename this field "ButBnd20SvodnayaOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é†àşûÿÿÿÿ8øÙÏç‰.
-N
-java:S1659c"1Declare "ButClearSpisokBND20" on a separate line.(°”ı³8Õ’Ë¡‹.
-~	java:S116©"\Rename this field "ButMng20NasosSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıñ¥âûÿÿÿÿ8øÙÏç‰.
-p
-java:S3776²"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(À˜ª±8ÁãÜ¡‹.
-v	java:S116"ZRename this field "BND20PersBezNK4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Ø’–8¶Ğ¡‹.
-l	java:S116"RRename this field "Perehod" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëêíâøÿÿÿÿ
-v	java:S116"ZRename this field "BND20PersBezNK2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ØõÌ8¶Ğ¡‹.
-S
-java:S1659Y"1Declare "ToggleMNG20actshurf" on a separate line.(æâê„øÿÿÿÿ8¥±Ø¡‹.
-€	java:S116±"^Rename this field "BoxBND20PersBezNK11" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8µƒ±äŠ.
-W
-java:S4973Á"9Use the "equals" method if value comparison was intended.(‹Î¬Œ8øÙÏç‰.
-O
-java:S1602ù",Remove useless curly braces around statement(ÿû›¯úÿÿÿÿ8ÁãÜ¡‹.
-m	java:S116A"SRename this field "ListView" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–…å¸ûÿÿÿÿ
-|	java:S116›"_Rename this field "ButMng20PromyselSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éì›ã8øÙÏç‰.
-W
-java:S4973Í"9Use the "equals" method if value comparison was intended.(ÚÑ„¸8°”Ûç‰.
-T
-java:S1659±"1Declare "BoxBND20PersBezNK14" on a separate line.(°“±ùÿÿÿÿ8µƒ±äŠ.
-{	java:S116"ZRename this field "BND20PersBezNK9" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âäµ¸úÿÿÿÿ8¶Ğ¡‹.
-s	java:S117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ô»Ìÿÿÿÿÿ8øÙÏç‰.
-~	java:S116Ÿ"\Rename this field "ButMng20SosudSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Ã şÿÿÿÿ8øÙÏç‰.
-r
-java:S1104@"\Make TextBnd20PapOpen a static final constant or non-public and provide accessors if needed.(»ìÇó
-w	java:S116¡"ZRename this field "ButMng20UaSaven" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô£¦8øÙÏç‰.
-o	java:S116_"ZRename this field "RadBnd20Nomzakl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«–¨“
-s	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ÚŠùûÿÿÿÿ8ƒÎ‡¼‰.
-n	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—÷µş8øÙÏç‰.
-n	java:S117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûûÍ–8øÙÏç‰.
+java:S1602ô",Remove useless curly braces around statement(ş™àQ8æ¦­¶‹.
+r	java:S116"VRename this field "BND20Pers11" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï±¦î8Ô‚ê¢‹.
+s	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÉ×ƒûÿÿÿÿ8şÚ«¶‹.
+s	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»öÖÇøÿÿÿÿ8şÚ«¶‹.
+n	java:S117õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Ñúî8ƒÎ‡¼‰.
+n	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠˆÀÃ8şÚ«¶‹.
+~	java:S116•"\Rename this field "ButMng20MoneyOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öˆû¹üÿÿÿÿ8şÚ«¶‹.
+n	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ÙËŠ8şÚ«¶‹.
+l	java:S117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÔÇ‘ıÿÿÿÿ
 J
-java:S1602Ö",Remove useless curly braces around statement(ßèË›8ÁãÜ¡‹.
+java:S1602©",Remove useless curly braces around statement(Ø¾Ï8æ¦­¶‹.
+v	java:S116"URename this field "BND20Pers7" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÇÙúùÿÿÿÿ8Ô‚ê¢‹.
+n	java:S117’"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚãïÆ8şÚ«¶‹.
+z	java:S116¯"]Rename this field "BoxBND20PersBezNK5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8şÚ«¶‹.
+|	java:S116™"_Rename this field "ButMng20PromyselSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éì›ã8şÚ«¶‹.
+€	java:S116©"^Rename this field "ButMng20KompresOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò–èıúÿÿÿÿ8şÚ«¶‹.
+€	java:S116±"^Rename this field "BoxBND20PersBezNK14" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8şÚ«¶‹.
+w	java:S116µ"ZRename this field "BoxBND20PersNK9" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‚ˆŸ8şÚ«¶‹.
+s	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¢Äùùÿÿÿÿ8şÚ«¶‹.
+O
+java:S1602£",Remove useless curly braces around statement(ş¿Óøûÿÿÿÿ8æ¦­¶‹.
+	java:S116W"^Rename this field "ToggleMNG20actshurf" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8şÚ«¶‹.
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ğÓ¡ûÿÿÿÿ8şÚ«¶‹.
+T
+java:S1481ø"1Remove this unused "OstanovStart" local variable.(‡ÚŠùûÿÿÿÿ8æ¦­¶‹.
+~	java:S116›"\Rename this field "ButMng20TechnSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üêİ¹ÿÿÿÿÿ8şÚ«¶‹.
+	java:S116—"_Rename this field "ButMng20SvodnayaSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÌÏùşÿÿÿÿ8şÚ«¶‹.
+~	java:S116W"]Rename this field "ToggleMNG20ostanov" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8şÚ«¶‹.
+…	java:S116W"dRename this field "ToggleMNG20defctsvedomost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8şÚ«¶‹.
+€	java:S116±"^Rename this field "BoxBND20PersBezNK16" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8şÚ«¶‹.
 N
-java:S1659¯"0Declare "BoxBND20PersBezNK4" on a separate line.(³šôº8›‘¯äŠ.
-l	java:S1162"WRename this field "NameTuColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶‡ÛÈ
-O
-java:S1602Ù",Remove useless curly braces around statement(§ÈÙ¾ÿÿÿÿÿ8ÁãÜ¡‹.
-|	java:S116g"[Rename this field "ButBnd20PapkOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œú­üÿÿÿÿ8øÙÏç‰.
-}	java:S116£"[Rename this field "ButMng20AgzuSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šŞ¦øÿÿÿÿ8øÙÏç‰.
-w	java:S116"\Rename this field "ButBnd20NasosOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š€Ñ(8øÙÏç‰.
-s	java:S117Ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ò²Îùÿÿÿÿ8øÙÏç‰.
-O
-java:S1602¦",Remove useless curly braces around statement(Ç¿ûÌıÿÿÿÿ8ÁãÜ¡‹.
-z	java:S116¯"]Rename this field "BoxBND20PersBezNK2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8›‘¯äŠ.
-z	java:S116¯"]Rename this field "BoxBND20PersBezNK3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8›‘¯äŠ.
-l	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ææüãÿÿÿÿÿ
-w	java:S116i"[Rename this field "ButMng20PapkOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä›Ò8øÙÏç‰.
-S
-java:S1659U"1Declare "DataOstanovEndMNG20" on a separate line.(¢À‡íûÿÿÿÿ8¿×¡‹.
-o
-java:S1104A"TMake ListView a static final constant or non-public and provide accessors if needed.(–…å¸ûÿÿÿÿ
-n	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öøú–8øÙÏç‰.
+java:S1659¯"0Declare "BoxBND20PersBezNK4" on a separate line.(³šôº8şÚ«¶‹.
+p	java:S1169"VRename this field "ZavTuColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›øâÍşÿÿÿÿ
+Q
+java:S1659E"/Declare "TextPositionMNG20" on a separate line.(×ñÏÛùÿÿÿÿ8øÛÕ¡‹.
 N
-java:S1659¯"0Declare "BoxBND20PersBezNK2" on a separate line.(³šôº8›‘¯äŠ.
-	java:S116‡"_Rename this field "ButMng20PromyselOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰áŸ‘ıÿÿÿÿ8øÙÏç‰.
-x	java:S116M"\Rename this field "ToggleBND20naryad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í¶ÉÈ8ôş¹ç‰.
-n	java:S117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÒ–À8øÙÏç‰.
-n	java:S117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âõÜÚ8øÙÏç‰.
-z	java:S116c"^Rename this field "ButClearSpisokBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°”ı³8Õ’Ë¡‹.
-€	java:S116­"^Rename this field "ButMng20KompresSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§×•Ûùÿÿÿÿ8øÙÏç‰.
-O
-java:S1602ó",Remove useless curly braces around statement(ïÒÎ´ıÿÿÿÿ8ÁãÜ¡‹.
-p	java:S100Ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³«Áşÿÿÿÿ8ÁãÜ¡‹.
+java:S1659¯"0Declare "BoxBND20PersBezNK7" on a separate line.(³šôº8şÚ«¶‹.
+|	java:S116¥"ZRename this field "ButMng20RvsSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã§ŠŠÿÿÿÿÿ8şÚ«¶‹.
+€	java:S116±"^Rename this field "BoxBND20PersBezNK15" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8şÚ«¶‹.
+y	java:S116_"]Rename this field "ButSendSpisokMNG20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÃµÅ8şÚ«¶‹.
+€	java:S116±"^Rename this field "BoxBND20PersBezNK13" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8şÚ«¶‹.
+|	java:S116³"ZRename this field "BoxBND20PersNK3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+w	java:S116"VRename this field "BND20Pers10" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ä×¶ûÿÿÿÿ8Ô‚ê¢‹.
 u
-java:S3776Ğ"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(³«Áşÿÿÿÿ8ÁãÜ¡‹.
-|	java:S116""[Rename this field "BND20PersBezNK15" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û®¡øÿÿÿÿ8¶Ğ¡‹.
-u	java:S116]"[Rename this field "RadBnd20Skvoznoi" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÔ¬Ëÿÿÿÿÿ
-J
-java:S1602Ğ",Remove useless curly braces around statement(ö¢°ß8ÁãÜ¡‹.
+java:S3776Ş"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(³«Áşÿÿÿÿ8æ¦­¶‹.
+v	java:S116"URename this field "BND20Pers9" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÌ­¸øÿÿÿÿ8Ô‚ê¢‹.
+r	java:S116"VRename this field "BND20Pers12" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–’’Ï8Ô‚ê¢‹.
+	java:S116±"]Rename this field "BoxBND20PersBezNK9" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8şÚ«¶‹.
 O
-java:S1602‘",Remove useless curly braces around statement(ˆèÍÎûÿÿÿÿ8ÁãÜ¡‹.
-g	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¨´
-~	java:S116‹"\Rename this field "ButMng20SosudOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÍáÍøÿÿÿÿ8øÙÏç‰.
-€	java:S116±"^Rename this field "BoxBND20PersBezNK15" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8µƒ±äŠ.
-n	java:S117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¨´8ƒÎ‡¼‰.
-€	java:S116±"^Rename this field "BoxBND20PersBezNK12" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8µƒ±äŠ.
-‰	java:S116Y"hRename this field "ToggleMNG20resultatpovtornogo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8š«Û¡‹.
+java:S1602š",Remove useless curly braces around statement(ïÒÎ´ıÿÿÿÿ8æ¦­¶‹.
+s	java:S117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëú€©ÿÿÿÿÿ8øÙÏç‰.
 N
-java:S1659¯"0Declare "BoxBND20PersBezNK6" on a separate line.(³šôº8›‘¯äŠ.
-	java:S116U"`Rename this field "DataOstanovStartMNG20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢À‡íûÿÿÿÿ8¿ä’‘Š.
-	java:S116W"`Rename this field "DataOstanovStartBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Œ•åúÿÿÿÿ8³£“‘Š.
-T
-java:S1659Y"2Declare "ToggleMNG20factshurf" on a separate line.(æâê„øÿÿÿÿ8»Ø¡‹.
-z	java:S116a"^Rename this field "ButClearSpisokMNG20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÃµÅ8ÙšÊ¡‹.
-s	java:S117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ğÓ¡ûÿÿÿÿ8øÙÏç‰.
-N
-java:S1659¯"0Declare "BoxBND20PersBezNK7" on a separate line.(³šôº8›‘¯äŠ.
+java:S1659¯"0Declare "BoxBND20PersBezNK6" on a separate line.(³šôº8şÚ«¶‹.
+y	java:S116="_Rename this field "MestorozhdenieColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òˆİ¥ûÿÿÿÿ
+n	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¡«û8şÚ«¶‹.
+w	java:S116G"[Rename this field "TextBnd20PapOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ³¤8ñşÕ¡‹.
 \
-java:S4973ä"9Use the "equals" method if value comparison was intended.(ƒÇÒöúÿÿÿÿ8Ö–áç‰.
+java:S4973†"9Use the "equals" method if value comparison was intended.(ƒ©Ò‡úÿÿÿÿ8şÚ«¶‹.
+x	java:S116q"\Rename this field "ButBnd20SosudSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Êø8şÚ«¶‹.
+s	java:S117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÔÇ‘ıÿÿÿÿ8ƒÎ‡¼‰.
+|	java:S116³"ZRename this field "BoxBND20PersNK1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+n	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¨´8ƒÎ‡¼‰.
+v	java:S116"URename this field "BND20Pers3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶›Äıÿÿÿÿ8Ô‚ê¢‹.
+l	java:S117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¿ûÌıÿÿÿÿ
+R
+java:S1659U"0Declare "ToggleBND20ostanov" on a separate line.(á¸úÿÿÿÿ8şÚ«¶‹.
+v
+java:S3776©"SRefactor this method to reduce its Cognitive Complexity from 107 to the 15 allowed.(¦±»Ïÿÿÿÿÿ8æ¦­¶‹.
+~	java:S116‡"\Rename this field "ButMng20TechnOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò§øÚøÿÿÿÿ8şÚ«¶‹.
+L
+java:S1659µ".Declare "BoxBND20PersNK13" on a separate line.(«‚ˆŸ8şÚ«¶‹.
+}	java:S116o"\Rename this field "ButBnd20SosudOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì©œùøÿÿÿÿ8şÚ«¶‹.
+\
+java:S4973Ò"9Use the "equals" method if value comparison was intended.(Œ³²“øÿÿÿÿ8şÚ«¶‹.
+x	java:S116_"\Rename this field "ButAddSpisokMNG20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÃµÅ8şÚ«¶‹.
+O
+java:S1602",Remove useless curly braces around statement(÷ğÓ¡ûÿÿÿÿ8æ¦­¶‹.
+P
+java:S1659³"-Declare "BoxBND20PersNK3" on a separate line.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+{	java:S116‹"YRename this field "ButMng20UaOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úİ˜÷úÿÿÿÿ8şÚ«¶‹.
+l	java:S116"RRename this field "Perehod" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëêíâøÿÿÿÿ
+J
+java:S1602¾",Remove useless curly braces around statement(úÁÿò8æ¦­¶‹.
+v
+java:S1192‚"SDefine a constant instead of duplicating this literal "ĞŸĞ¾Ğ´Ğ·ĞµĞ¼Ğ½Ğ¾Ğµ" 4 times.(Œ³²“øÿÿÿÿ8şÚ«¶‹.
+|	java:S116³"ZRename this field "BoxBND20PersNK7" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+J
+java:S1602—",Remove useless curly braces around statement(ŠˆÀÃ8æ¦­¶‹.
+|	java:S116³"ZRename this field "BoxBND20PersNK2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+w	java:S116g"[Rename this field "ButMng20PapkOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä›Ò8şÚ«¶‹.
+s	java:S117í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²ô»Ìÿÿÿÿÿ8şÚ«¶‹.
+N
+java:S1659_"1Declare "ButClearSpisokMNG20" on a separate line.(ÈÃµÅ8şÚ«¶‹.
+z	java:S116¯"]Rename this field "BoxBND20PersBezNK1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8şÚ«¶‹.
+v	java:S116"URename this field "BND20Pers5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Îã—üÿÿÿÿ8Ô‚ê¢‹.
+g	java:S117À"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Ñúî
+€	java:S116±"^Rename this field "BoxBND20PersBezNK12" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8şÚ«¶‹.
+N
+java:S1659¯"0Declare "BoxBND20PersBezNK5" on a separate line.(³šôº8şÚ«¶‹.
+R
+java:S1659W"0Declare "ToggleMNG20ostanov" on a separate line.(æâê„øÿÿÿÿ8şÚ«¶‹.
+T
+java:S1659±"1Declare "BoxBND20PersBezNK15" on a separate line.(°“±ùÿÿÿÿ8şÚ«¶‹.
+x	java:S116µ"[Rename this field "BoxBND20PersNK14" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‚ˆŸ8şÚ«¶‹.
+…	java:S116U"dRename this field "ToggleBND20defctsvedomost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¸úÿÿÿÿ8şÚ«¶‹.
+	java:S116…"_Rename this field "ButMng20PromyselOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰áŸ‘ıÿÿÿÿ8şÚ«¶‹.
+O
+java:S1602€",Remove useless curly braces around statement(§ÈÙ¾ÿÿÿÿÿ8æ¦­¶‹.
+u	java:S116C"YRename this field "ScrollBarBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šö¦±8¢è™¸‹.
+s	java:S117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ½À·ûÿÿÿÿ8şÚ«¶‹.
+|	java:S116³"ZRename this field "BoxBND20PersNK6" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›·±ëùÿÿÿÿ8şÚ«¶‹.
 M
-java:S1659c"0Declare "ButSendSpisokBND20" on a separate line.(°”ı³8Õ’Ë¡‹.
-T
-java:S1659±"1Declare "BoxBND20PersBezNK13" on a separate line.(°“±ùÿÿÿÿ8µƒ±äŠ.
-k	java:S116"QRename this field "Zapros" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾İ–·øÿÿÿÿ
-x	java:S116c"\Rename this field "ButAddSpisokBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°”ı³8¡˜—¼‰.
-N
-java:S1659¯"0Declare "BoxBND20PersBezNK5" on a separate line.(³šôº8›‘¯äŠ.
-n	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠˆÀÃ8øÙÏç‰.
-x	java:S116@"\Rename this field "TextPositionBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ìÇó8ñşÕ¡‹.
-z	java:S116¯"]Rename this field "BoxBND20PersBezNK7" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8›‘¯äŠ.
-z	java:S116y"YRename this field "ButBnd20SkOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óæîúÿÿÿÿ8øÙÏç‰.
-p	java:S116["VRename this field "ToggleBnd20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ö‰ÿÿÿÿÿ
-J
-java:S1602‹",Remove useless curly braces around statement(öøú–8ÁãÜ¡‹.
-|	java:S116"[Rename this field "BND20PersBezNK10" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßãĞ¬úÿÿÿÿ8¶Ğ¡‹.
-u
-java:S3776›"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(¦±»Ïÿÿÿÿÿ8ÁãÜ¡‹.
+java:S1481ù"/Remove this unused "OstanovEnd" local variable.(â¼®÷8æ¦­¶‹.
 \
-java:S4973İ"9Use the "equals" method if value comparison was intended.(ö°£úÿÿÿÿ8Œøßç‰.
-Y
-java:S1659Y"7Declare "ToggleMNG20defctsvedomost" on a separate line.(æâê„øÿÿÿÿ8±“Ú¡‹.
-y	java:S116"\Rename this field "ButBnd20NasosSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Å§8øÙÏç‰.
-s	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëú€©ÿÿÿÿÿ8øÙÏç‰.
-	java:S116Y"^Rename this field "ToggleMNG20actshurf" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8¥±Ø¡‹.
-s	java:S117ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¿Óøûÿÿÿÿ8øÙÏç‰.
-	java:S116E"`Rename this field "ToggleBND20ispolnenie" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ÆÆ¥ùÿÿÿÿ8ôş¹ç‰.
-J
-java:S1602",Remove useless curly braces around statement(Œ¡«û8ÁãÜ¡‹.
-}	java:S116q"\Rename this field "ButBnd20SosudOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì©œùøÿÿÿÿ8øÙÏç‰.
-O
-java:S1602Ó",Remove useless curly braces around statement(ğ½À·ûÿÿÿÿ8ÁãÜ¡‹.
-s	java:S117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ½À·ûÿÿÿÿ8øÙÏç‰.
+java:S4973ƒ"9Use the "equals" method if value comparison was intended.(ŒÓÿÄşÿÿÿÿ8şÚ«¶‹.
+n	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šîÎ8øÙÏç‰.
+s	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿû›¯úÿÿÿÿ8şÚ«¶‹.
+f	java:S116,"QRename this field "Spisok" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾­Óó
+z	java:S116¯"]Rename this field "BoxBND20PersBezNK6" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8şÚ«¶‹.
 W
-java:S4973Ï"9Use the "equals" method if value comparison was intended.(¥çî¶8°”Ûç‰.
-{
-java:S1192"^Define a constant instead of duplicating this literal "ĞĞ±Ğ´ÑƒĞ»Ğ²Ğ°Ğ»ĞµĞµĞ² Ğ .Ğ¥." 3 times.(ÃŞŸÓ8Ş¯Ò¡‹.
-y	java:S1168"_Rename this field "MestorozhdenieColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òˆİ¥ûÿÿÿÿ
-€	java:S116±"^Rename this field "BoxBND20PersBezNK10" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8µƒ±äŠ.
+java:S4973â"9Use the "equals" method if value comparison was intended.(¥çî¶8şÚ«¶‹.
+l	java:S117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ÚŠùûÿÿÿÿ
+	java:S116U"^Rename this field "ToggleBND20actshurf" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¸úÿÿÿÿ8şÚ«¶‹.
+~	java:S116"\Rename this field "ButMng20SosudSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Ã şÿÿÿÿ8şÚ«¶‹.
+}	java:S116£"[Rename this field "ButMng20BgUrSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º Çíúÿÿÿÿ8şÚ«¶‹.
+O
+java:S1602Ğ",Remove useless curly braces around statement(òŞÛ”øÿÿÿÿ8æ¦­¶‹.
+s	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÒÎ´ıÿÿÿÿ8şÚ«¶‹.
+s	java:S117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÂù™ûÿÿÿÿ8şÚ«¶‹.
+L
+java:S1659µ".Declare "BoxBND20PersNK15" on a separate line.(«‚ˆŸ8şÚ«¶‹.
+O
+java:S1602”",Remove useless curly braces around statement(»öÖÇøÿÿÿÿ8æ¦­¶‹.
+W
+java:S4973Ù"9Use the "equals" method if value comparison was intended.(×¨¥ï8şÚ«¶‹.
+x	java:S116µ"[Rename this field "BoxBND20PersNK16" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‚ˆŸ8şÚ«¶‹.
+|	java:S116E"[Rename this field "TextMng20PapOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ñÏÛùÿÿÿÿ8øÛÕ¡‹.
+s	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ææüãÿÿÿÿÿ8şÚ«¶‹.
+€	java:S116k"_Rename this field "ButBnd20SvodnayaSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª³²¼øÿÿÿÿ8şÚ«¶‹.
+	java:S116U"`Rename this field "ToggleBND20ispolnenie" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¸úÿÿÿÿ8şÚ«¶‹.
+m	java:S116I"SRename this field "ListView" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’Êó¢şÿÿÿÿ
+O
+java:S1602Ä",Remove useless curly braces around statement(òÂù™ûÿÿÿÿ8æ¦­¶‹.
+Z
+java:S1659U"8Declare "ToggleBND20vnutreniiosmotr" on a separate line.(á¸úÿÿÿÿ8şÚ«¶‹.
+n	java:S117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Óø8şÚ«¶‹.
+x	java:S116"\Rename this field "ButBnd20NasosSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Å§8şÚ«¶‹.
+v	java:S116"URename this field "BND20Pers1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÎºÂşÿÿÿÿ8ŠÆé¢‹.
+n	java:S117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¢°ß8şÚ«¶‹.
+v	java:S116"URename this field "BND20Pers8" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó´¶–øÿÿÿÿ8Ô‚ê¢‹.
+v
+java:S1192…"SDefine a constant instead of duplicating this literal "ĞĞ°Ğ´Ğ·ĞµĞ¼Ğ½Ğ¾Ğµ" 3 times.(«ØÊÜùÿÿÿÿ8şÚ«¶‹.
+n	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âõÜÚ8şÚ«¶‹.
+z	java:S116¯"]Rename this field "BoxBND20PersBezNK3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8şÚ«¶‹.
+|	java:S116³"ZRename this field "BoxBND20PersNK8" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+v	java:S116E"\Rename this field "TextPositionMNG20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ñÏÛùÿÿÿÿ
+}	java:S116W"\Rename this field "ToggleMNG20naryad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8şÚ«¶‹.
+L
+java:S1659G"/Declare "TextPositionBND20" on a separate line.(Ÿ³¤8ñşÕ¡‹.
 ]
-java:S1659Y";Declare "ToggleMNG20resultatpovtornogo" on a separate line.(æâê„øÿÿÿÿ8š«Û¡‹.
-n	java:S117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Ñúî8ƒÎ‡¼‰.
-n	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÁÿò8øÙÏç‰.
-w	java:S116#"[Rename this field "BND20PersBezNK16" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ãóº8àôĞ¡‹.
-x	java:S116K"\Rename this field "ToggleBND20luklaz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æî¾î8ôş¹ç‰.
-N
-java:S1659¯"0Declare "BoxBND20PersBezNK8" on a separate line.(³šôº8Ù¯äŠ.
-€	java:S116m"_Rename this field "ButBnd20SvodnayaSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª³²¼øÿÿÿÿ8øÙÏç‰.
-s	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òŞÛ”øÿÿÿÿ8øÙÏç‰.
-~	java:S116‰"\Rename this field "ButMng20TechnOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò§øÚøÿÿÿÿ8øÙÏç‰.
-z
-java:S1104@"]Make TextPositionBND20 a static final constant or non-public and provide accessors if needed.(»ìÇó8ñşÕ¡‹.
+java:S1659W";Declare "ToggleMNG20resultatpovtornogo" on a separate line.(æâê„øÿÿÿÿ8şÚ«¶‹.
+M
+java:S1659a"0Declare "ButSendSpisokBND20" on a separate line.(°”ı³8şÚ«¶‹.
+†	java:S116W"eRename this field "ToggleMNG20vnutreniiosmotr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8şÚ«¶‹.
+€	java:S116i"_Rename this field "ButBnd20SvodnayaOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é†àşûÿÿÿÿ8şÚ«¶‹.
+|	java:S116³"ZRename this field "BoxBND20PersNK4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+	java:S116ƒ"_Rename this field "ButMng20SvodnayaOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÚÛ úÿÿÿÿ8şÚ«¶‹.
+n	java:S117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öøú–8şÚ«¶‹.
+w	java:S116Y"VRename this field "ToggleBnd20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ö‰ÿÿÿÿÿ8şÚ«¶‹.
+n	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´  –8ƒÎ‡¼‰.
+|	java:S116³"ZRename this field "BoxBND20PersNK5" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+l	java:S117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ğ¬Êüÿÿÿÿ
 O
-java:S1602",Remove useless curly braces around statement(òÂù™ûÿÿÿÿ8ÁãÜ¡‹.
-v
-java:S1192ô"SDefine a constant instead of duplicating this literal "ĞŸĞ¾Ğ´Ğ·ĞµĞ¼Ğ½Ğ¾Ğµ" 4 times.(Œ³²“øÿÿÿÿ8øÙÏç‰.
-l	java:S117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÔÇ‘ıÿÿÿÿ
-s	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ÈÙ¾ÿÿÿÿÿ8øÙÏç‰.
+java:S1602ƒ",Remove useless curly braces around statement(‘Ò²Îùÿÿÿÿ8æ¦­¶‹.
+€	java:S116U"_Rename this field "ToggleBND20factshurf" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¸úÿÿÿÿ8şÚ«¶‹.
 T
-java:S1659±"1Declare "BoxBND20PersBezNK16" on a separate line.(°“±ùÿÿÿÿ8¾©±äŠ.
-g	java:S117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´  –
-s	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¢Äùùÿÿÿÿ8øÙÏç‰.
-p	java:S1166"VRename this field "RegTuColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÇš²ÿÿÿÿÿ
-g	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Óø
-	java:S116™"_Rename this field "ButMng20SvodnayaSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÌÏùşÿÿÿÿ8øÙÏç‰.
-	java:S116±"]Rename this field "BoxBND20PersBezNK9" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8µƒ±äŠ.
-s	java:S117‘"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆèÍÎûÿÿÿÿ8øÙÏç‰.
-W
-java:S4973Û"9Use the "equals" method if value comparison was intended.(©Ş´8Œøßç‰.
-v	java:S116"ZRename this field "BND20PersBezNK6" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓéÖ8¶Ğ¡‹.
-J
-java:S1602£",Remove useless curly braces around statement(£ÙËŠ8ÁãÜ¡‹.
-s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÂù™ûÿÿÿÿ8øÙÏç‰.
-{	java:S116"YRename this field "ButMng20UaOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úİ˜÷úÿÿÿÿ8øÙÏç‰.
-s	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÒÎ´ıÿÿÿÿ8øÙÏç‰.
-T
-java:S1659±"1Declare "BoxBND20PersBezNK15" on a separate line.(°“±ùÿÿÿÿ8µƒ±äŠ.
-j	java:S116"URename this field "Open_papka" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±…ÒÁ
-p	java:S116:"VRename this field "ObektColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹²·Áûÿÿÿÿ
-}	java:S116Y"\Rename this field "ToggleMNG20luklaz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8¾ÑØ¡‹.
-v
-java:S1192÷"SDefine a constant instead of duplicating this literal "ĞĞ°Ğ´Ğ·ĞµĞ¼Ğ½Ğ¾Ğµ" 3 times.(«ØÊÜùÿÿÿÿ8øÙÏç‰.
-€	java:S116Y"_Rename this field "ToggleMNG20factshurf" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8»Ø¡‹.
-|	java:S116“"ZRename this field "ButMng20RvsOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª±¤÷şÿÿÿÿ8øÙÏç‰.
-l	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì‘‡ûÿÿÿÿ
-	java:S116…"_Rename this field "ButMng20SvodnayaOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÚÛ úÿÿÿÿ8øÙÏç‰.
-\
-java:S4973â"9Use the "equals" method if value comparison was intended.(¥‰œĞøÿÿÿÿ8Ö–áç‰.
-s	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›³üÇùÿÿÿÿ8øÙÏç‰.
-t
-java:S1104B"RMake lable1 a static final constant or non-public and provide accessors if needed.(ó£—ìüÿÿÿÿ8ì·áäŠ.
-J
-java:S1602—",Remove useless curly braces around statement(úÁÿò8ÁãÜ¡‹.
-}	java:S116‘"[Rename this field "ButMng20BgUrOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Û¸øÿÿÿÿ8øÙÏç‰.
-W
-java:S4973Ô"9Use the "equals" method if value comparison was intended.(š›Ò¢8…¿İç‰.
-W
-java:S4973Æ"9Use the "equals" method if value comparison was intended.(×¨¥ï8øÙÏç‰.
-Ÿ
-java:S1186¶"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(§ ÿ8›‘¯äŠ.
-v	java:S116"ZRename this field "BND20PersBezNK1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃŞŸÓ8½ÅÎ¡‹.
-x	java:S116"[Rename this field "ButMng20AgzuOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í€Ğ¹8øÙÏç‰.
+java:S1659±"1Declare "BoxBND20PersBezNK12" on a separate line.(°“±ùÿÿÿÿ8şÚ«¶‹.
+P
+java:S1659³"-Declare "BoxBND20PersNK4" on a separate line.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+v	java:S116"URename this field "BND20Pers4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ëÁ¬úÿÿÿÿ8Ô‚ê¢‹.
 N
-java:S1659¯"0Declare "BoxBND20PersBezNK3" on a separate line.(³šôº8›‘¯äŠ.
-€	java:S116±"^Rename this field "BoxBND20PersBezNK14" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8µƒ±äŠ.
-\
-java:S4973ô"9Use the "equals" method if value comparison was intended.(Œ³²“øÿÿÿÿ8øÙÏç‰.
-y	java:S116I"^Rename this field "ToggleBND20actshurf" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ö08ôş¹ç‰.
-n	java:S117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´  –8ƒÎ‡¼‰.
-g	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤Ñúî
-€	java:S116«"^Rename this field "ButMng20KompresOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò–èıúÿÿÿÿ8øÙÏç‰.
+java:S1659¯"0Declare "BoxBND20PersBezNK3" on a separate line.(³šôº8şÚ«¶‹.
+€	java:S116±"^Rename this field "BoxBND20PersBezNK11" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8şÚ«¶‹.
 J
-java:S1602‚",Remove useless curly braces around statement(Ø¾Ï8ÁãÜ¡‹.
-†	java:S116Y"eRename this field "ToggleMNG20vnutreniiosmotr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8ìÁÙ¡‹.
-
-java:S1104?"]Make TextPositionMNG20 a static final constant or non-public and provide accessors if needed.(©¿ñòùÿÿÿÿ8øÛÕ¡‹.
-s	java:S117ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãèõáûÿÿÿÿ8øÙÏç‰.
+java:S1602ñ",Remove useless curly braces around statement(ÅßÉ÷8æ¦­¶‹.
 O
-java:S1602ÿ",Remove useless curly braces around statement(ãèõáûÿÿÿÿ8ÁãÜ¡‹.
-s	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºï´˜ùÿÿÿÿ8ƒÎ‡¼‰.
-s	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ææüãÿÿÿÿÿ8øÙÏç‰.
+java:S1602¸",Remove useless curly braces around statement(ˆèÍÎûÿÿÿÿ8æ¦­¶‹.
+~	java:S116“"\Rename this field "ButMng20NasosOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ØÓšùÿÿÿÿ8şÚ«¶‹.
+|	java:S116M"[Rename this field "TextDefectsBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¥Îƒúÿÿÿÿ8Ñ´¶‹.
+}	java:S116U"\Rename this field "ToggleBND20luklaz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¸úÿÿÿÿ8şÚ«¶‹.
+O
+java:S1602 ",Remove useless curly braces around statement(ÿû›¯úÿÿÿÿ8æ¦­¶‹.
+s	java:S117¬"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¬ˆüÿÿÿÿ8şÚ«¶‹.
+s	java:S117Ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òŞÛ”øÿÿÿÿ8şÚ«¶‹.
+J
+java:S1602ı",Remove useless curly braces around statement(ßèË›8æ¦­¶‹.
+v	java:S116]"ZRename this field "RadBnd20Nomzakl" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«–¨“8şÚ«¶‹.
+U
+java:S1128"8Remove this unused import 'javafx.geometry.BoundingBox'.(Ø¦ßø8™×º¢‹.
+€	java:S116M"_Rename this field "TextPrimechanieBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¥Îƒúÿÿÿÿ8•Ûê¶‹.
+n	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûûÍ–8şÚ«¶‹.
+s	java:S117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ÈÙ¾ÿÿÿÿÿ8şÚ«¶‹.
+n	java:S117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é¢õÖ8¸öµ‹.
+q	java:S1165"WRename this field "TypeTuColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ó‹Èÿÿÿÿÿ
+w	java:S116""VRename this field "BND20Pers15" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â“¡ıÿÿÿÿ8Ô‚ê¢‹.
+€	java:S116«"^Rename this field "ButMng20KompresSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§×•Ûùÿÿÿÿ8şÚ«¶‹.
+|	java:S116‘"ZRename this field "ButMng20RvsOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª±¤÷şÿÿÿÿ8şÚ«¶‹.
+W
+java:S4973ü"9Use the "equals" method if value comparison was intended.(Àæ½Õ8şÚ«¶‹.
+L
+java:S1659µ".Declare "BoxBND20PersNK16" on a separate line.(«‚ˆŸ8şÚ«¶‹.
+x	java:S116"[Rename this field "ButMng20AgzuOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í€Ğ¹8şÚ«¶‹.
+}	java:S116U"\Rename this field "ToggleBND20naryad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¸úÿÿÿÿ8şÚ«¶‹.
+\
+java:S4973ğ"9Use the "equals" method if value comparison was intended.(ö°£úÿÿÿÿ8şÚ«¶‹.
+x	java:S116µ"[Rename this field "BoxBND20PersNK10" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‚ˆŸ8şÚ«¶‹.
+T
+java:S1659±"1Declare "BoxBND20PersBezNK13" on a separate line.(°“±ùÿÿÿÿ8şÚ«¶‹.
+n	java:S117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÁÿò8şÚ«¶‹.
+N
+java:S1659a"1Declare "ButClearSpisokBND20" on a separate line.(°”ı³8şÚ«¶‹.
+n	java:S117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅßÉ÷8şÚ«¶‹.
+T
+java:S1659±"1Declare "BoxBND20PersBezNK14" on a separate line.(°“±ùÿÿÿÿ8şÚ«¶‹.
+O
+java:S1602ú",Remove useless curly braces around statement(ğ½À·ûÿÿÿÿ8æ¦­¶‹.
+g	java:S117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ‹ƒ¨
+W
+java:S4973à"9Use the "equals" method if value comparison was intended.(ÚÑ„¸8şÚ«¶‹.
+n	java:S116A"ZRename this field "SkvazhinaColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­úˆ9
+s	java:S117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ğ¬Êüÿÿÿÿ8ƒÎ‡¼‰.
+}	java:S116¡"[Rename this field "ButMng20AgzuSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šŞ¦øÿÿÿÿ8şÚ«¶‹.
+x	java:S116µ"[Rename this field "BoxBND20PersNK11" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‚ˆŸ8şÚ«¶‹.
+{	java:S116{"ZRename this field "ButBnd20UdeOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ñ»áûÿÿÿÿ8şÚ«¶‹.
+|	java:S116m"[Rename this field "ButBnd20AgzuOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æåÂÀøÿÿÿÿ8şÚ«¶‹.
+\
+java:S4973‚"9Use the "equals" method if value comparison was intended.(Œ³²“øÿÿÿÿ8şÚ«¶‹.
+P
+java:S1659³"-Declare "BoxBND20PersNK2" on a separate line.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+n	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÎ†¨8şÚ«¶‹.
+s	java:S117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì‘‡ûÿÿÿÿ8şÚ«¶‹.
+n	java:S117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ‹ƒ¨8ƒÎ‡¼‰.
+n	java:S117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßèË›8şÚ«¶‹.
+Z
+java:S1659W"8Declare "ToggleMNG20vnutreniiosmotr" on a separate line.(æâê„øÿÿÿÿ8şÚ«¶‹.
+s	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãèõáûÿÿÿÿ8şÚ«¶‹.
+l	java:S1167"WRename this field "NameTuColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶‡ÛÈ
+p	java:S116;"VRename this field "RegTuColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òÇš²ÿÿÿÿÿ
+z	java:S116a"^Rename this field "ButClearSpisokBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°”ı³8şÚ«¶‹.
+O
+java:S1602¦",Remove useless curly braces around statement(ãèõáûÿÿÿÿ8æ¦­¶‹.
+\
+java:S4973é"9Use the "equals" method if value comparison was intended.(ñ•Œ¿şÿÿÿÿ8şÚ«¶‹.
+q	java:S116G"\Rename this field "TextPositionBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ³¤
+v	java:S116s"ZRename this field "ButBnd20RvsOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä‡¡œ8şÚ«¶‹.
+}	java:S116"[Rename this field "ButMng20BgUrOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Û¸øÿÿÿÿ8şÚ«¶‹.
+O
+java:S1602Í",Remove useless curly braces around statement(Ç¿ûÌıÿÿÿÿ8æ¦­¶‹.
 S
-java:S1659W"1Declare "DataOstanovEndBND20" on a separate line.(¾Œ•åúÿÿÿÿ8İ×¡‹.
-n	java:S117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šîÎ8øÙÏç‰.
-x	java:S116a"\Rename this field "ButAddSpisokMNG20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÃµÅ8¾¶¹º‰.
-€	java:S116±"^Rename this field "BoxBND20PersBezNK13" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8µƒ±äŠ.
+java:S1659U"1Declare "ToggleBND20actshurf" on a separate line.(á¸úÿÿÿÿ8şÚ«¶‹.
+Y
+java:S1659W"7Declare "ToggleMNG20defctsvedomost" on a separate line.(æâê„øÿÿÿÿ8şÚ«¶‹.
+s	java:S117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›³üÇùÿÿÿÿ8şÚ«¶‹.
+z	java:S116_"^Rename this field "ButClearSpisokMNG20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÃµÅ8şÚ«¶‹.
+S
+java:S1659Q"1Declare "DataOstanovEndMNG20" on a separate line.(¢À‡íûÿÿÿÿ8şÚ«¶‹.
+L
+java:S1659µ".Declare "BoxBND20PersNK14" on a separate line.(«‚ˆŸ8şÚ«¶‹.
+	java:S116Q"`Rename this field "DataOstanovStartMNG20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢À‡íûÿÿÿÿ8şÚ«¶‹.
+n	java:S117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—÷µş8şÚ«¶‹.
+O
+java:S1602¬",Remove useless curly braces around statement(÷¬ˆüÿÿÿÿ8æ¦­¶‹.
+j
+java:S1192"MDefine a constant instead of duplicating this literal "(ĞŸÑƒÑÑ‚Ğ¾)" 5 times.(–’’Ï8°ßŠ£‹.
+x	java:S116µ"[Rename this field "BoxBND20PersNK13" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‚ˆŸ8şÚ«¶‹.
+g	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´  –
+y	java:S116a"]Rename this field "ButSendSpisokBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°”ı³8şÚ«¶‹.
+s	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆèÍÎûÿÿÿÿ8şÚ«¶‹.
+x	java:S116µ"[Rename this field "BoxBND20PersNK12" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«‚ˆŸ8şÚ«¶‹.
+n	java:S117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¼®÷8øÙÏç‰.
+M
+java:S1659_"0Declare "ButSendSpisokMNG20" on a separate line.(ÈÃµÅ8şÚ«¶‹.
+z	java:S116¯"]Rename this field "BoxBND20PersBezNK8" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8şÚ«¶‹.
+P
+java:S1659³"-Declare "BoxBND20PersNK6" on a separate line.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+}	java:S116W"\Rename this field "ToggleMNG20luklaz" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8şÚ«¶‹.
+T
+java:S1659±"1Declare "BoxBND20PersBezNK16" on a separate line.(°“±ùÿÿÿÿ8şÚ«¶‹.
+N
+java:S1659¯"0Declare "BoxBND20PersBezNK2" on a separate line.(³šôº8şÚ«¶‹.
+J
+java:S1602Ê",Remove useless curly braces around statement(£ÙËŠ8æ¦­¶‹.
+P
+java:S1659³"-Declare "BoxBND20PersNK8" on a separate line.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+†	java:S116W"eRename this field "ToggleMNG20zapisivpasporte" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8şÚ«¶‹.
+†	java:S116U"eRename this field "ToggleBND20vnutreniiosmotr" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¸úÿÿÿÿ8şÚ«¶‹.
+€	java:S116W"_Rename this field "ToggleMNG20factshurf" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8şÚ«¶‹.
+t	java:S116c"SRename this field "ButKurva" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ§„Éıÿÿÿÿ8şÚ«¶‹.
+n	java:S117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÒ–À8şÚ«¶‹.
+‚	java:S116U"aRename this field "ToggleBND20iskluchenie" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¸úÿÿÿÿ8şÚ«¶‹.
+~	java:S116‰"\Rename this field "ButMng20SosudOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÍáÍøÿÿÿÿ8şÚ«¶‹.
+z	java:S116¯"]Rename this field "BoxBND20PersBezNK4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8şÚ«¶‹.
+€	java:S116±"^Rename this field "BoxBND20PersBezNK10" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°“±ùÿÿÿÿ8şÚ«¶‹.
+p	java:S100Ş"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³«Áşÿÿÿÿ8æ¦­¶‹.
+L
+java:S1659µ".Declare "BoxBND20PersNK11" on a separate line.(«‚ˆŸ8şÚ«¶‹.
+‰	java:S116W"hRename this field "ToggleMNG20resultatpovtornogo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8şÚ«¶‹.
+	java:S116W"`Rename this field "ToggleMNG20ispolnenie" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æâê„øÿÿÿÿ8şÚ«¶‹.
+k	java:S116"QRename this field "Zapros" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾İ–·øÿÿÿÿ
+T
+java:S1659U"2Declare "ToggleBND20factshurf" on a separate line.(á¸úÿÿÿÿ8şÚ«¶‹.
+	java:S116Q"^Rename this field "DataOstanovEndMNG20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢À‡íûÿÿÿÿ8şÚ«¶‹.
+r	java:S116 "VRename this field "BND20Pers13" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜£™8Ô‚ê¢‹.
+O
+java:S1602¯",Remove useless curly braces around statement(èÉ×ƒûÿÿÿÿ8æ¦­¶‹.
+q
+java:S1104·"NMake id a static final constant or non-public and provide accessors if needed.(ƒ€«Îûÿÿÿÿ8şÚ«¶‹.
+J
+java:S1602µ",Remove useless curly braces around statement(Œ¡«û8æ¦­¶‹.
+z	java:S116¯"]Rename this field "BoxBND20PersBezNK2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³šôº8şÚ«¶‹.
+p	java:S116?"VRename this field "ObektColumn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹²·Áûÿÿÿÿ
+T
+java:S1659W"2Declare "ToggleMNG20factshurf" on a separate line.(æâê„øÿÿÿÿ8şÚ«¶‹.
+L
+java:S1659µ".Declare "BoxBND20PersNK10" on a separate line.(«‚ˆŸ8şÚ«¶‹.
+~	java:S116U"]Rename this field "ToggleBND20ostanov" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(á¸úÿÿÿÿ8şÚ«¶‹.
+V
+java:S1659U"4Declare "ToggleBND20iskluchenie" on a separate line.(á¸úÿÿÿÿ8şÚ«¶‹.
+n	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¾Ï8şÚ«¶‹.
+j	java:S116"URename this field "Open_papka" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±…ÒÁ
+J
+java:S1602Ç",Remove useless curly braces around statement(ÊÎ†¨8æ¦­¶‹.
+x	java:S116a"\Rename this field "ButAddSpisokBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°”ı³8şÚ«¶‹.
+r	java:S116#"VRename this field "BND20Pers16" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç­£¡8Ô‚ê¢‹.
+Ÿ
+java:S1186¹"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(§ ÿ8şÚ«¶‹.
+~	java:S116§"\Rename this field "ButMng20NasosSave" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıñ¥âûÿÿÿÿ8şÚ«¶‹.
+s	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ò²Îùÿÿÿÿ8şÚ«¶‹.
+Z
+java:S1659W"8Declare "ToggleMNG20zapisivpasporte" on a separate line.(æâê„øÿÿÿÿ8şÚ«¶‹.
+~	java:S116"\Rename this field "ButBnd20MoneyOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒµØ¨øÿÿÿÿ8şÚ«¶‹.
+w	java:S116!"VRename this field "BND20Pers14" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»äİŞşÿÿÿÿ8Ô‚ê¢‹.
+O
+java:S1602»",Remove useless curly braces around statement(›³üÇùÿÿÿÿ8æ¦­¶‹.
+Q
+java:S1659U"/Declare "ToggleBND20naryad" on a separate line.(á¸úÿÿÿÿ8şÚ«¶‹.
+w	java:S116y"[Rename this field "ButBnd20BgUrOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ÑÏÓ8şÚ«¶‹.
+w	java:S116}"\Rename this field "ButBnd20NasosOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š€Ñ(8şÚ«¶‹.
+T
+java:S1659±"1Declare "BoxBND20PersBezNK10" on a separate line.(°“±ùÿÿÿÿ8şÚ«¶‹.
+m	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş™àQ8şÚ«¶‹.
+q	java:S116"URename this field "BND20Pers6" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¡ï­8Ô‚ê¢‹.
+Q
+java:S1659W"/Declare "ToggleMNG20naryad" on a separate line.(æâê„øÿÿÿÿ8şÚ«¶‹.
+\
+java:S4973õ"9Use the "equals" method if value comparison was intended.(¥‰œĞøÿÿÿÿ8şÚ«¶‹.
+z	java:S116u"YRename this field "ButBnd20UaOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è®“°úÿÿÿÿ8şÚ«¶‹.
+P
+java:S1659³"-Declare "BoxBND20PersNK5" on a separate line.(›·±ëùÿÿÿÿ8şÚ«¶‹.
+s	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºï´˜ùÿÿÿÿ8şÚ«¶‹.
+g	java:S117¾"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©¨´
+Y
+java:S1659U"7Declare "ToggleBND20defctsvedomost" on a separate line.(á¸úÿÿÿÿ8şÚ«¶‹.
+{	java:S116O"_Rename this field "TextIskluchenieBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ãà8Œ–®¶‹.
+J
+java:S1602÷",Remove useless curly braces around statement(ö¢°ß8æ¦­¶‹.
+\
+java:S4973Û"9Use the "equals" method if value comparison was intended.(Ë„åŒúÿÿÿÿ8şÚ«¶‹.
+Q
+java:S1659U"/Declare "ToggleBND20luklaz" on a separate line.(á¸úÿÿÿÿ8şÚ«¶‹.
+W
+java:S4973ş"9Use the "equals" method if value comparison was intended.(¦—€ş8şÚ«¶‹.
+|	java:S116e"[Rename this field "ButBnd20PapkOpen" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œú­üÿÿÿÿ8şÚ«¶‹.
+p	java:S100©"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦±»Ïÿÿÿÿÿ8æ¦­¶‹.
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ææüãÿÿÿÿÿ8²Î¹¬Œ.
+n	java:S117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’æÈí8²Î¹¬Œ.
+n	java:S117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎéÄë8²Î¹¬Œ.
+s	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÍùÓúÿÿÿÿ8²Î¹¬Œ.
+\
+java:S4973÷"9Use the "equals" method if value comparison was intended.(ƒÇÒöúÿÿÿÿ8²Î¹¬Œ.
+S
+java:S1659S"1Declare "DataOstanovEndBND20" on a separate line.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+N
+java:S1659S",Declare "DataBezNkBND20" on a separate line.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+K
+java:S1659S")Declare "DataNkBND20" on a separate line.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+Q
+java:S1659S"/Declare "DataActNoDocBND20" on a separate line.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+Q
+java:S1659S"/Declare "DataActNegotBND20" on a separate line.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+P
+java:S1659S".Declare "DataNoteExpBND20" on a separate line.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+M
+java:S1659­"/Declare "BoxBND20ExpNonte2" on a separate line.(ä®á¤8²Î¹¬Œ.
+M
+java:S1659­"/Declare "BoxBND20ExpNonte3" on a separate line.(ä®á¤8²Î¹¬Œ.
+M
+java:S1659­"/Declare "BoxBND20ExpNonte4" on a separate line.(ä®á¤8²Î¹¬Œ.
+z	java:S116$"YRename this field "BND20ExpNonte1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²–ÍÕşÿÿÿÿ8²Î¹¬Œ.
+u	java:S116%"YRename this field "BND20ExpNonte2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ğéÇ8²Î¹¬Œ.
+u	java:S116&"YRename this field "BND20ExpNonte3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—²¤ø8²Î¹¬Œ.
+z	java:S116'"YRename this field "BND20ExpNonte4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À†ñÙÿÿÿÿÿ8²Î¹¬Œ.
+	java:S116S"`Rename this field "DataOstanovStartBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+	java:S116S"^Rename this field "DataOstanovEndBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+z	java:S116S"YRename this field "DataBezNkBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+w	java:S116S"VRename this field "DataNkBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+}	java:S116S"\Rename this field "DataActNoDocBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+}	java:S116S"\Rename this field "DataActNegotBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+|	java:S116S"[Rename this field "DataNoteExpBND20" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ»‹¥úÿÿÿÿ8²Î¹¬Œ.
+y	java:S116­"\Rename this field "BoxBND20ExpNonte1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä®á¤8²Î¹¬Œ.
+y	java:S116­"\Rename this field "BoxBND20ExpNonte2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä®á¤8²Î¹¬Œ.
+y	java:S116­"\Rename this field "BoxBND20ExpNonte3" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä®á¤8²Î¹¬Œ.
+y	java:S116­"\Rename this field "BoxBND20ExpNonte4" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä®á¤8²Î¹¬Œ.
+N
+java:S1481"0Remove this unused "datanoteexp" local variable.(†îì¢8²Î¹¬Œ.
+W
+java:S1481”"4Remove this unused "SelectedExpNote" local variable.(’ÍùÓúÿÿÿÿ8²Î¹¬Œ.

@@ -105,7 +105,9 @@ public class Zapros {
             e.printStackTrace();
         }
     }
-    public void SendSpisokBND20(String Ispolnenie, String Factshurf, String Actshurf, String Luklaz, String Naryad, String Ostanov, String OstanovStart, String OstanovEnd) {
+    public void SendSpisokBND20(String Ispolnenie, String Factshurf, String Actshurf, String Luklaz, String Naryad, String Ostanov,String iskluchenie, String OstanovStart, String OstanovEnd, String databeznk,
+                                String dataactnegot, String dataactnodoc, String datank,String SelectedPersBezNK,String SelectedPersNK,String prichinaiskluchenia,String defects,String primechanie,
+                                String defctsvedomost) {
         ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
         // один параметр, если нужно два и более просто добоовляем также
         nameValuePairs.add(new BasicNameValuePair("position", Ispolnenie));
