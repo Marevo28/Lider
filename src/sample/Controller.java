@@ -37,7 +37,14 @@ public class Controller {
     String BND20ExpNonte2="Михайлов Е.А.";
     String BND20ExpNonte3="Шафиков А.Ф.";
     String BND20ExpNonte4="Семенов В.Ю";
-
+    String BND20PersNote1="Калинин В.А.";
+    String BND20PersNote2="Иванов А.А.";
+    String BND20PersNote3="Гусар А.Г.";
+    String BND20PersNote4="Галяутдинов Э.И.";
+    String BND20PersNote5="Чернышов А.Б";
+    String BND20PersNote6="Евсевьев А.А.";
+    String BND20PersNote7="Тицкий Э.А.";
+    String BND20PersNote8="Абдулин А.Р.";
 
     ObservableList<String> langs = FXCollections.observableArrayList("Абдулвалеев Р.Х.", "Абузаров Г.Р.", "Байкалов В.А.", "Батталов А.Г."/*,selectionBnd20.getText()*/);
 
@@ -170,7 +177,7 @@ public class Controller {
     @FXML
     private Button ButMng20KompresSave;
     @FXML
-    private CheckBox BoxBND20ExpNonte1, BoxBND20ExpNonte2,BoxBND20ExpNonte3,BoxBND20ExpNonte4;
+    private CheckBox BoxBND20ExpNonte1, BoxBND20ExpNonte2,BoxBND20ExpNonte3,BoxBND20ExpNonte4, BoxBND20SpecNote1,BoxBND20SpecNote2,BoxBND20SpecNote3,BoxBND20SpecNote4,BoxBND20SpecNote5,BoxBND20SpecNote6,BoxBND20SpecNote7,BoxBND20SpecNote8;
     @FXML
     private CheckBox BoxBND20PersBezNK1, BoxBND20PersBezNK2,BoxBND20PersBezNK3,BoxBND20PersBezNK4,BoxBND20PersBezNK5,BoxBND20PersBezNK6,BoxBND20PersBezNK7,BoxBND20PersBezNK8;
     @FXML
@@ -226,6 +233,14 @@ public class Controller {
         BoxBND20PersNK14.setText(BND20Pers14);
         BoxBND20PersNK15.setText(BND20Pers15);
         BoxBND20PersNK16.setText(BND20Pers16);
+        BoxBND20SpecNote1.setText(BND20PersNote1);
+        BoxBND20SpecNote2.setText(BND20PersNote2);
+        BoxBND20SpecNote3.setText(BND20PersNote3);
+        BoxBND20SpecNote4.setText(BND20PersNote4);
+        BoxBND20SpecNote5.setText(BND20PersNote5);
+        BoxBND20SpecNote6.setText(BND20PersNote6);
+        BoxBND20SpecNote7.setText(BND20PersNote7);
+        BoxBND20SpecNote8.setText(BND20PersNote8);
 
         idPosition.setCellValueFactory(new PropertyValueFactory<Position, String>("position"));
         TypeTuColumn.setCellValueFactory(new PropertyValueFactory<Position, String>("TypeTu"));
@@ -530,6 +545,7 @@ public class Controller {
             String SelectedPersBezNK = "";
             String SelectedPersNK = "";
             String SelectedExpNote = "";
+            String SelectedPersNote = "";
 
             if(BoxBND20PersBezNK1.isSelected()) SelectedPersBezNK += BND20Pers1 + ", ";
             if(BoxBND20PersBezNK2.isSelected()) SelectedPersBezNK += BND20Pers2+", ";
@@ -567,9 +583,17 @@ public class Controller {
             if(BoxBND20ExpNonte2.isSelected()) SelectedExpNote += BND20ExpNonte2 + ", ";
             if(BoxBND20ExpNonte3.isSelected()) SelectedExpNote += BND20ExpNonte3 + ", ";
             if(BoxBND20ExpNonte4.isSelected()) SelectedExpNote += BND20ExpNonte4 + ", ";
+            if(BoxBND20SpecNote1.isSelected()) SelectedPersNote += BND20PersNote1 + ", ";
+            if(BoxBND20SpecNote2.isSelected()) SelectedPersNote += BND20PersNote2 + ", ";
+            if(BoxBND20SpecNote3.isSelected()) SelectedPersNote += BND20PersNote3 + ", ";
+            if(BoxBND20SpecNote4.isSelected()) SelectedPersNote += BND20PersNote4 + ", ";
+            if(BoxBND20SpecNote5.isSelected()) SelectedPersNote += BND20PersNote5 + ", ";
+            if(BoxBND20SpecNote6.isSelected()) SelectedPersNote += BND20PersNote6 + ", ";
+            if(BoxBND20SpecNote7.isSelected()) SelectedPersNote += BND20PersNote7 + ", ";
+            if(BoxBND20SpecNote8.isSelected()) SelectedPersNote += BND20PersNote8 + ", ";
 
 
-            Zapros.SendSpisokBND20(Ispolnenie, Factshurf, Actshurf, Luklaz, Naryad, Ostanov,iskluchenie, ostanovstart,ostanovend, databeznk, dataactnegot, dataactnodoc,datank, SelectedPersBezNK,SelectedPersNK,prichinaiskluchenia,defects,primechanie,defctsvedomost);
+            Zapros.SendSpisokBND20(Ispolnenie, Factshurf, Actshurf, Luklaz, Naryad, Ostanov,iskluchenie, ostanovstart,ostanovend, databeznk, dataactnegot, dataactnodoc,datank, SelectedPersBezNK,SelectedPersNK,prichinaiskluchenia,defects,primechanie,defctsvedomost,SelectedExpNote,SelectedPersNote);
 
         });
     }

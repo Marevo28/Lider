@@ -107,7 +107,7 @@ public class Zapros {
     }
     public void SendSpisokBND20(String Ispolnenie, String Factshurf, String Actshurf, String Luklaz, String Naryad, String Ostanov,String iskluchenie, String OstanovStart, String OstanovEnd, String databeznk,
                                 String dataactnegot, String dataactnodoc, String datank,String SelectedPersBezNK,String SelectedPersNK,String prichinaiskluchenia,String defects,String primechanie,
-                                String defctsvedomost) {
+                                String defctsvedomost, String SelectedExpNote,String SelectedPersNote) {
         ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
         // один параметр, если нужно два и более просто добоовляем также
         nameValuePairs.add(new BasicNameValuePair("position", Ispolnenie));
@@ -118,6 +118,19 @@ public class Zapros {
         nameValuePairs.add(new BasicNameValuePair("position", Ostanov));
         nameValuePairs.add(new BasicNameValuePair("position", OstanovStart));
         nameValuePairs.add(new BasicNameValuePair("position", OstanovEnd));
+        nameValuePairs.add(new BasicNameValuePair("position", databeznk));
+        nameValuePairs.add(new BasicNameValuePair("position", dataactnegot));
+        nameValuePairs.add(new BasicNameValuePair("position", dataactnodoc));
+        nameValuePairs.add(new BasicNameValuePair("position", datank));
+        nameValuePairs.add(new BasicNameValuePair("position", SelectedPersBezNK));
+        nameValuePairs.add(new BasicNameValuePair("position", SelectedPersNK));
+        nameValuePairs.add(new BasicNameValuePair("position", prichinaiskluchenia));
+        nameValuePairs.add(new BasicNameValuePair("position", defects));
+        nameValuePairs.add(new BasicNameValuePair("position", primechanie));
+        nameValuePairs.add(new BasicNameValuePair("position", defctsvedomost));
+        nameValuePairs.add(new BasicNameValuePair("position", SelectedExpNote));
+        nameValuePairs.add(new BasicNameValuePair("position", SelectedPersNote));
+
         HttpClient httpclient = HttpClients.createDefault();
         try {
             HttpPost httppost = new HttpPost("http://peremoga.tech/Desktop/DefectoscopistBND2020.php");

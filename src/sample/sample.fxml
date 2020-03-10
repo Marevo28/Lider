@@ -155,6 +155,17 @@
                                           <CheckBox fx:id="BoxBND20ExpNonte2" layoutX="385.0" layoutY="286.0" mnemonicParsing="false" text="Абузаров Г.Р." />
                                           <CheckBox fx:id="BoxBND20ExpNonte3" layoutX="511.0" layoutY="266.0" mnemonicParsing="false" text="Комаров Е.Н." />
                                           <CheckBox fx:id="BoxBND20ExpNonte4" layoutX="511.0" layoutY="285.0" mnemonicParsing="false" text="Пальцева В." />
+                                          <Label alignment="CENTER" layoutX="385.0" layoutY="308.0" prefHeight="27.0" prefWidth="174.0" text="Дата вписания специалистов" textAlignment="CENTER" wrapText="true" />
+                                          <DatePicker fx:id="DataNoteSpecBND20" layoutX="385.0" layoutY="334.0" />
+                                          <Label contentDisplay="CENTER" layoutX="419.0" layoutY="357.0" prefHeight="25.0" prefWidth="105.0" text="ФИО специалиста" textAlignment="CENTER" wrapText="true" />
+                                          <CheckBox fx:id="BoxBND20SpecNote1" layoutX="383.0" layoutY="381.0" mnemonicParsing="false" text="Абдулвалеев Р.Х." />
+                                          <CheckBox fx:id="BoxBND20SpecNote2" layoutX="383.0" layoutY="400.0" mnemonicParsing="false" text="Абузаров Г.Р." />
+                                          <CheckBox fx:id="BoxBND20SpecNote5" layoutX="509.0" layoutY="380.0" mnemonicParsing="false" text="Комаров Е.Н." />
+                                          <CheckBox fx:id="BoxBND20SpecNote6" layoutX="509.0" layoutY="399.0" mnemonicParsing="false" text="Пальцева В." />
+                                          <CheckBox fx:id="BoxBND20SpecNote3" layoutX="382.0" layoutY="421.0" mnemonicParsing="false" text="Абдулвалеев Р.Х." />
+                                          <CheckBox fx:id="BoxBND20SpecNote4" layoutX="382.0" layoutY="440.0" mnemonicParsing="false" text="Абузаров Г.Р." />
+                                          <CheckBox fx:id="BoxBND20SpecNote7" layoutX="508.0" layoutY="420.0" mnemonicParsing="false" text="Комаров Е.Н." />
+                                          <CheckBox fx:id="BoxBND20SpecNote8" layoutX="508.0" layoutY="439.0" mnemonicParsing="false" text="Пальцева В." />
                                     </children>
                                   </AnchorPane>
                               </content>

@@ -12,12 +12,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad8e8bd4ff8f02a914e3d9ca1bcc32dfc8c503a9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad8e8bd4ff8f02a914e3d9ca1bcc32dfc8c503a9" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lider/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lider/sample/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lider/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lider/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lider/sample/Zapros.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lider/sample/Zapros.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lider/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lider/sample/sample.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Zapros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Zapros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
     </list>
@@ -134,7 +129,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,6 +246,11 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Lider-Express-028" />
+      <path value="$PROJECT_DIR$/Lider-Express-Desktop" />
+      <path value="$PROJECT_DIR$/Lider_Desktop" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
