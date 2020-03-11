@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="785.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <content>
       <TabPane layoutY="-1.0" prefHeight="948.0" prefWidth="1200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <tabs>
@@ -69,12 +69,12 @@
                                       <Label layoutX="47.0" layoutY="668.0" text="Начало" />
                                       <DatePicker fx:id="DataOstanovEndBND20" layoutX="106.0" layoutY="697.0" />
                                       <Label layoutX="47.0" layoutY="701.0" text="Конец" />
-                                      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="352.0" layoutY="202.0" prefHeight="34.0" prefWidth="239.0" text="Осмотр внутренней поверхности проводился" textAlignment="CENTER" wrapText="true" />
-                                      <RadioButton layoutX="356.0" layoutY="236.0" mnemonicParsing="false" text="Да">
+                                      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="45.0" layoutY="740.0" prefHeight="34.0" prefWidth="239.0" text="Осмотр внутренней поверхности проводился" textAlignment="CENTER" wrapText="true" />
+                                      <RadioButton layoutX="49.0" layoutY="774.0" mnemonicParsing="false" text="Да">
                                           <toggleGroup>
                                               <ToggleGroup fx:id="ToggleBND20vnutreniiosmotr" />
                                           </toggleGroup></RadioButton>
-                                      <RadioButton layoutX="356.0" layoutY="262.0" mnemonicParsing="false" text="Нет" toggleGroup="$ToggleBND20vnutreniiosmotr" />
+                                      <RadioButton layoutX="49.0" layoutY="800.0" mnemonicParsing="false" text="Нет" toggleGroup="$ToggleBND20vnutreniiosmotr" />
                                       <Label layoutX="656.0" layoutY="200.0" prefHeight="75.0" prefWidth="174.0" text="Дата выезда на объект без проведения НК (заполнять в том случае когда контроль не проводился)" textAlignment="CENTER" wrapText="true" />
                                       <DatePicker fx:id="DataBezNkBND20" layoutX="656.0" layoutY="276.0" />
                                       <Label layoutX="656.0" layoutY="308.0" prefHeight="75.0" prefWidth="174.0" text="ФИО специалиста (-ов), выезжающего (-их) на объект (заполнять в том случае когда контроль не проводился)" textAlignment="CENTER" wrapText="true" />
@@ -94,10 +94,10 @@
                                       <CheckBox fx:id="BoxBND20PersBezNK14" disable="true" layoutX="782.0" layoutY="481.0" mnemonicParsing="false" text="(Пусто)" />
                                       <CheckBox fx:id="BoxBND20PersBezNK15" disable="true" layoutX="782.0" layoutY="499.0" mnemonicParsing="false" text="(Пусто)" />
                                       <CheckBox fx:id="BoxBND20PersBezNK16" disable="true" layoutX="782.0" layoutY="518.0" mnemonicParsing="false" text="(Пусто)" />
-                                      <Label layoutX="400.0" layoutY="286.0" prefHeight="39.0" prefWidth="174.0" text="Акт неготовности (писать дату акта)" textAlignment="CENTER" wrapText="true" />
-                                      <DatePicker fx:id="DataActNegotBND20" layoutX="389.0" layoutY="326.0" />
-                                      <Label layoutX="400.0" layoutY="352.0" prefHeight="39.0" prefWidth="174.0" text="Акт о непредоставлении документов (писать дату акта)" textAlignment="CENTER" wrapText="true" />
-                                      <DatePicker fx:id="DataActNoDocBND20" layoutX="389.0" layoutY="392.0" />
+                                      <Label contentDisplay="CENTER" layoutX="390.0" layoutY="489.0" prefHeight="39.0" prefWidth="174.0" text="Дата акта неготовности" textAlignment="CENTER" wrapText="true" />
+                                      <DatePicker fx:id="DataActNegotBND20" layoutX="379.0" layoutY="529.0" />
+                                      <Label layoutX="390.0" layoutY="555.0" prefHeight="39.0" prefWidth="174.0" text="Акт о непредоставлении документов (писать дату акта)" textAlignment="CENTER" wrapText="true" />
+                                      <DatePicker fx:id="DataActNoDocBND20" layoutX="379.0" layoutY="595.0" />
                                       <Label alignment="CENTER" layoutX="900.0" layoutY="200.0" prefHeight="27.0" prefWidth="174.0" text="Дата НК" textAlignment="CENTER" wrapText="true" />
                                       <DatePicker fx:id="DataNkBND20" layoutX="900.0" layoutY="226.0" />
                                       <Label layoutX="900.0" layoutY="255.0" prefHeight="45.0" prefWidth="174.0" text="ФИО специалиста (-ов), проводящего (-их) НК" textAlignment="CENTER" wrapText="true" />
@@ -117,14 +117,14 @@
                                       <CheckBox fx:id="BoxBND20PersNK14" disable="true" layoutX="1026.0" layoutY="391.0" mnemonicParsing="false" text="(Пусто)" />
                                       <CheckBox fx:id="BoxBND20PersNK15" disable="true" layoutX="1026.0" layoutY="409.0" mnemonicParsing="false" text="(Пусто)" />
                                       <CheckBox fx:id="BoxBND20PersNK16" disable="true" layoutX="1026.0" layoutY="428.0" mnemonicParsing="false" text="(Пусто)" />
-                                      <Label alignment="CENTER" layoutX="385.0" layoutY="445.0" prefHeight="38.0" prefWidth="174.0" text="Дефекты (указать выявленные дефекты)" textAlignment="CENTER" wrapText="true" />
-                                      <TextArea fx:id="TextDefectsBND20" layoutX="369.0" layoutY="484.0" prefHeight="68.0" prefWidth="241.0" wrapText="true" />
-                                      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="370.0" layoutY="553.0" prefHeight="19.0" prefWidth="239.0" text="Дефектная ведомость оформлена" textAlignment="CENTER" wrapText="true" />
-                                      <RadioButton layoutX="370.0" layoutY="574.0" mnemonicParsing="false" text="Да">
+                                      <Label alignment="CENTER" layoutX="375.0" layoutY="630.0" prefHeight="38.0" prefWidth="174.0" text="Дефекты (указать выявленные дефекты)" textAlignment="CENTER" wrapText="true" />
+                                      <TextArea fx:id="TextDefectsBND20" layoutX="359.0" layoutY="669.0" prefHeight="68.0" prefWidth="241.0" wrapText="true" />
+                                      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="360.0" layoutY="738.0" prefHeight="19.0" prefWidth="239.0" text="Дефектная ведомость оформлена" textAlignment="CENTER" wrapText="true" />
+                                      <RadioButton layoutX="360.0" layoutY="759.0" mnemonicParsing="false" text="Да">
                                           <toggleGroup>
                                               <ToggleGroup fx:id="ToggleBND20defctsvedomost" />
                                           </toggleGroup></RadioButton>
-                                      <RadioButton layoutX="370.0" layoutY="600.0" mnemonicParsing="false" text="Нет" toggleGroup="$ToggleBND20defctsvedomost" />
+                                      <RadioButton layoutX="360.0" layoutY="785.0" mnemonicParsing="false" text="Нет" toggleGroup="$ToggleBND20defctsvedomost" />
                                       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="639.0" layoutY="582.0" prefHeight="19.0" prefWidth="239.0" text="Примечания дефектоскопистов" textAlignment="CENTER" wrapText="true" />
                                       <TextArea fx:id="TextPrimechanieBND20" layoutX="611.0" layoutY="611.0" prefHeight="67.0" prefWidth="295.0" wrapText="true" />
                                       <Label layoutX="45.0" layoutY="326.0" text="Акт шурфовки оформлен" underline="true" />
@@ -148,6 +148,31 @@
                                           <TextField fx:id="TextIskluchenieBND20" layoutX="927.0" layoutY="612.0" prefHeight="65.0" prefWidth="242.0" />
                                           <Label alignment="CENTER" contentDisplay="CENTER" layoutX="930.0" layoutY="587.0" prefHeight="19.0" prefWidth="239.0" text="Причина исключения" textAlignment="CENTER" wrapText="true" />
                                           <ScrollBar fx:id="ScrollBarBND20" layoutX="1186.0" layoutY="-30.0" orientation="VERTICAL" prefHeight="758.0" prefWidth="14.0" />
+                                          <Label alignment="CENTER" layoutX="387.0" layoutY="194.0" prefHeight="27.0" prefWidth="174.0" text="Дата вписания экспертов" textAlignment="CENTER" wrapText="true" />
+                                          <DatePicker fx:id="DataNoteExpBND20" layoutX="387.0" layoutY="220.0" />
+                                          <Label contentDisplay="CENTER" layoutX="423.0" layoutY="243.0" prefHeight="25.0" prefWidth="87.0" text="ФИО эксперта" textAlignment="CENTER" wrapText="true" />
+                                          <CheckBox fx:id="BoxBND20ExpNonte1" layoutX="385.0" layoutY="267.0" mnemonicParsing="false" text="Абдулвалеев Р.Х." />
+                                          <CheckBox fx:id="BoxBND20ExpNonte2" layoutX="385.0" layoutY="286.0" mnemonicParsing="false" text="Абузаров Г.Р." />
+                                          <CheckBox fx:id="BoxBND20ExpNonte3" layoutX="511.0" layoutY="266.0" mnemonicParsing="false" text="Комаров Е.Н." />
+                                          <CheckBox fx:id="BoxBND20ExpNonte4" layoutX="511.0" layoutY="285.0" mnemonicParsing="false" text="Пальцева В." />
+                                          <Label alignment="CENTER" layoutX="385.0" layoutY="308.0" prefHeight="27.0" prefWidth="174.0" text="Дата вписания специалистов" textAlignment="CENTER" wrapText="true" />
+                                          <DatePicker fx:id="DataNotePersBND20" layoutX="385.0" layoutY="334.0" />
+                                          <Label contentDisplay="CENTER" layoutX="419.0" layoutY="357.0" prefHeight="25.0" prefWidth="105.0" text="ФИО специалиста" textAlignment="CENTER" wrapText="true" />
+                                          <CheckBox fx:id="BoxBND20SpecNote1" layoutX="383.0" layoutY="381.0" mnemonicParsing="false" text="Абдулвалеев Р.Х." />
+                                          <CheckBox fx:id="BoxBND20SpecNote2" layoutX="383.0" layoutY="400.0" mnemonicParsing="false" text="Абузаров Г.Р." />
+                                          <CheckBox fx:id="BoxBND20SpecNote5" layoutX="509.0" layoutY="380.0" mnemonicParsing="false" text="Комаров Е.Н." />
+                                          <CheckBox fx:id="BoxBND20SpecNote6" layoutX="509.0" layoutY="399.0" mnemonicParsing="false" text="Пальцева В." />
+                                          <CheckBox fx:id="BoxBND20SpecNote3" layoutX="382.0" layoutY="421.0" mnemonicParsing="false" text="Абдулвалеев Р.Х." />
+                                          <CheckBox fx:id="BoxBND20SpecNote4" layoutX="382.0" layoutY="440.0" mnemonicParsing="false" text="Абузаров Г.Р." />
+                                          <CheckBox fx:id="BoxBND20SpecNote7" layoutX="508.0" layoutY="420.0" mnemonicParsing="false" text="Комаров Е.Н." />
+                                          <CheckBox fx:id="BoxBND20SpecNote8" layoutX="508.0" layoutY="439.0" mnemonicParsing="false" text="Пальцева В." />
+                                          <Label alignment="CENTER" contentDisplay="CENTER" layoutX="924.0" layoutY="466.0" prefHeight="19.0" prefWidth="239.0" text="Документы у Заказчика по факту имеются" textAlignment="CENTER" wrapText="true" />
+                                          <RadioButton layoutX="924.0" layoutY="487.0" mnemonicParsing="false" text="Да">
+                                             <toggleGroup>
+                                                <ToggleGroup fx:id="ToggleBND20documents" />
+                                             </toggleGroup>
+                                          </RadioButton>
+                                          <RadioButton layoutX="924.0" layoutY="513.0" mnemonicParsing="false" text="Нет" toggleGroup="$ToggleBND20documents" />
                                     </children>
                                   </AnchorPane>
                               </content>

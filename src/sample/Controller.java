@@ -87,9 +87,9 @@ public class Controller {
     @FXML
     public DatePicker DataOstanovStartMNG20, DataOstanovEndMNG20;
     @FXML
-    public DatePicker DataOstanovStartBND20, DataOstanovEndBND20, DataBezNkBND20,DataNkBND20,DataActNoDocBND20, DataActNegotBND20,DataNoteExpBND20;
+    public DatePicker DataOstanovStartBND20, DataOstanovEndBND20, DataBezNkBND20,DataNkBND20,DataActNoDocBND20, DataActNegotBND20,DataNoteExpBND20,DataNotePersBND20;
     @FXML
-    public ToggleGroup ToggleBND20ispolnenie, ToggleBND20factshurf,ToggleBND20actshurf,ToggleBND20luklaz,ToggleBND20naryad,ToggleBND20ostanov,ToggleBND20vnutreniiosmotr,ToggleBND20defctsvedomost,ToggleBND20iskluchenie;
+    public ToggleGroup ToggleBND20ispolnenie, ToggleBND20factshurf,ToggleBND20actshurf,ToggleBND20luklaz,ToggleBND20naryad,ToggleBND20ostanov,ToggleBND20vnutreniiosmotr,ToggleBND20defctsvedomost,ToggleBND20iskluchenie,ToggleBND20documents;
     @FXML
     public ToggleGroup ToggleMNG20ispolnenie,ToggleMNG20factshurf,ToggleMNG20actshurf,ToggleMNG20luklaz,ToggleMNG20naryad,ToggleMNG20ostanov,ToggleMNG20vnutreniiosmotr,ToggleMNG20defctsvedomost,ToggleMNG20resultatpovtornogo,ToggleMNG20zapisivpasporte;
     @FXML
@@ -359,6 +359,7 @@ public class Controller {
     }
     public void kurva() {
         ButKurva.setOnAction(Event -> {
+            System.out.println(Zapros.Position);
         });
     }
 
@@ -457,6 +458,7 @@ public class Controller {
             tableBND20.setItems(Spisok);
         });
         ButSendSpisokBND20.setOnAction(Event -> {
+            String position ="";
             String Ispolnenie="";
             String Factshurf="";
             String Actshurf="";
@@ -464,6 +466,9 @@ public class Controller {
             String Naryad="";
             String Ostanov="";
             String iskluchenie="";
+            String osmotr="";
+            String documents="";
+
             String defctsvedomost="";
             String prichinaiskluchenia=TextIskluchenieBND20.getText();
             String defects=TextPrimechanieBND20.getText();
@@ -476,6 +481,8 @@ public class Controller {
             RadioButton selectedRadioButton6  = (RadioButton) ToggleBND20ostanov.getSelectedToggle();
             RadioButton selectedRadioButton7  = (RadioButton) ToggleBND20iskluchenie.getSelectedToggle();
             RadioButton selectedRadioButton8  = (RadioButton) ToggleBND20defctsvedomost.getSelectedToggle();
+            RadioButton selectedRadioButton9  = (RadioButton)ToggleBND20vnutreniiosmotr.getSelectedToggle();
+            RadioButton selectedRadioButton10  = (RadioButton)ToggleBND20documents.getSelectedToggle();
             if (selectedRadioButton1 == null){
                 Ispolnenie="";
             } else if(selectedRadioButton1.getText()=="Подземное") {
@@ -529,9 +536,22 @@ public class Controller {
                 iskluchenie="";
             }else if(selectedRadioButton8.getText()== "Нет") {
                 iskluchenie = "Нет";
-            }else if(selectedRadioButton8
-                    .getText()== "Да"){
+            }else if(selectedRadioButton8.getText()== "Да"){
                 iskluchenie="Да";
+            }
+            if (selectedRadioButton9 == null){
+                osmotr="";
+            }else if(selectedRadioButton9.getText()== "Нет") {
+                osmotr = "Нет";
+            }else if(selectedRadioButton9.getText()== "Да"){
+                osmotr="Да";
+            }
+            if (selectedRadioButton10 == null){
+                documents="";
+            }else if(selectedRadioButton10.getText()== "Нет") {
+                documents = "Нет";
+            }else if(selectedRadioButton10.getText()== "Да"){
+                documents="Да";
             }
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.YYYY");
             String ostanovstart= formatter.format(DataOstanovStartBND20.getValue());
@@ -541,6 +561,7 @@ public class Controller {
             String dataactnodoc= formatter.format(DataActNoDocBND20.getValue());
             String datank= formatter.format(DataNkBND20.getValue());
             String datanoteexp= formatter.format(DataNoteExpBND20.getValue());
+            String datanotepers= formatter.format(DataNotePersBND20.getValue());
 
             String SelectedPersBezNK = "";
             String SelectedPersNK = "";
@@ -592,8 +613,7 @@ public class Controller {
             if(BoxBND20SpecNote7.isSelected()) SelectedPersNote += BND20PersNote7 + ", ";
             if(BoxBND20SpecNote8.isSelected()) SelectedPersNote += BND20PersNote8 + ", ";
 
-
-            Zapros.SendSpisokBND20(Ispolnenie, Factshurf, Actshurf, Luklaz, Naryad, Ostanov,iskluchenie, ostanovstart,ostanovend, databeznk, dataactnegot, dataactnodoc,datank, SelectedPersBezNK,SelectedPersNK,prichinaiskluchenia,defects,primechanie,defctsvedomost,SelectedExpNote,SelectedPersNote);
+            Zapros.SendSpisokBND20(position,datanoteexp,SelectedExpNote,datanotepers,SelectedPersNote, Ispolnenie, Factshurf, Actshurf, Luklaz, Naryad, Ostanov,iskluchenie, ostanovstart,ostanovend,osmotr, databeznk, dataactnegot, dataactnodoc,datank, SelectedPersBezNK,SelectedPersNK,prichinaiskluchenia,defects,primechanie,defctsvedomost,documents);
 
         });
     }

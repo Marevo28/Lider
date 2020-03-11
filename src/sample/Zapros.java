@@ -88,6 +88,7 @@ public class Zapros {
                 sb.append(line + "\n"); }
             is.close();
             result = sb.toString();
+            System.out.println(result);
         } catch (Exception e) { e.printStackTrace();
 
         }
@@ -105,35 +106,43 @@ public class Zapros {
             e.printStackTrace();
         }
     }
-    public void SendSpisokBND20(String Ispolnenie, String Factshurf, String Actshurf, String Luklaz, String Naryad, String Ostanov,String iskluchenie, String OstanovStart, String OstanovEnd, String databeznk,
-                                String dataactnegot, String dataactnodoc, String datank,String SelectedPersBezNK,String SelectedPersNK,String prichinaiskluchenia,String defects,String primechanie,
-                                String defctsvedomost, String SelectedExpNote,String SelectedPersNote) {
+    public void SendSpisokBND20(String position,String datanoteexp,String SelectedExpNote,String datanotepers,String SelectedPersNote, String Ispolnenie, String Factshurf, String Actshurf, String Luklaz, String Naryad, String Ostanov, String OstanovStart,
+                                String OstanovEnd,String osmotr, String databeznk, String dataactnegot, String dataactnodoc, String datank,String SelectedPersBezNK,String SelectedPersNK,String prichinaiskluchenia,String defects,String primechanie,
+                                String defctsvedomost,String iskluchenie,String documents) {
         ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
         // один параметр, если нужно два и более просто добоовляем также
-        nameValuePairs.add(new BasicNameValuePair("position", Ispolnenie));
-        nameValuePairs.add(new BasicNameValuePair("position", Factshurf));
-        nameValuePairs.add(new BasicNameValuePair("position", Actshurf));
-        nameValuePairs.add(new BasicNameValuePair("position", Luklaz));
-        nameValuePairs.add(new BasicNameValuePair("position", Naryad));
-        nameValuePairs.add(new BasicNameValuePair("position", Ostanov));
-        nameValuePairs.add(new BasicNameValuePair("position", OstanovStart));
-        nameValuePairs.add(new BasicNameValuePair("position", OstanovEnd));
-        nameValuePairs.add(new BasicNameValuePair("position", databeznk));
-        nameValuePairs.add(new BasicNameValuePair("position", dataactnegot));
-        nameValuePairs.add(new BasicNameValuePair("position", dataactnodoc));
-        nameValuePairs.add(new BasicNameValuePair("position", datank));
-        nameValuePairs.add(new BasicNameValuePair("position", SelectedPersBezNK));
-        nameValuePairs.add(new BasicNameValuePair("position", SelectedPersNK));
-        nameValuePairs.add(new BasicNameValuePair("position", prichinaiskluchenia));
-        nameValuePairs.add(new BasicNameValuePair("position", defects));
-        nameValuePairs.add(new BasicNameValuePair("position", primechanie));
-        nameValuePairs.add(new BasicNameValuePair("position", defctsvedomost));
-        nameValuePairs.add(new BasicNameValuePair("position", SelectedExpNote));
-        nameValuePairs.add(new BasicNameValuePair("position", SelectedPersNote));
+        nameValuePairs.add(new BasicNameValuePair("position", position));
+        nameValuePairs.add(new BasicNameValuePair("stolb27", datanoteexp));
+        nameValuePairs.add(new BasicNameValuePair("stolb28", SelectedExpNote));
+        nameValuePairs.add(new BasicNameValuePair("stolb29", datanotepers));
+        nameValuePairs.add(new BasicNameValuePair("stolb30", SelectedPersNote));
+        nameValuePairs.add(new BasicNameValuePair("stolb31", Ispolnenie));
+        nameValuePairs.add(new BasicNameValuePair("stolb32", Factshurf));
+        nameValuePairs.add(new BasicNameValuePair("stolb33", Actshurf));
+        nameValuePairs.add(new BasicNameValuePair("stolb34", Luklaz));
+        nameValuePairs.add(new BasicNameValuePair("stolb35", Naryad));
+        nameValuePairs.add(new BasicNameValuePair("stolb36", Ostanov));
+        nameValuePairs.add(new BasicNameValuePair("stolb37", OstanovStart));
+        nameValuePairs.add(new BasicNameValuePair("stolb38", OstanovEnd));
+        nameValuePairs.add(new BasicNameValuePair("stolb39", osmotr));
+        //nameValuePairs.add(new BasicNameValuePair("stolb40", )); Планирование
+        //nameValuePairs.add(new BasicNameValuePair("stolb41", )); Планирование
+        nameValuePairs.add(new BasicNameValuePair("stolb42", databeznk));
+        nameValuePairs.add(new BasicNameValuePair("stolb43", SelectedPersBezNK));
+        nameValuePairs.add(new BasicNameValuePair("stolb44", dataactnegot));
+        nameValuePairs.add(new BasicNameValuePair("stolb45", dataactnodoc));
+        nameValuePairs.add(new BasicNameValuePair("stolb46", datank));
+        nameValuePairs.add(new BasicNameValuePair("stolb47", SelectedPersNK));
+        nameValuePairs.add(new BasicNameValuePair("stolb48", documents));
+        nameValuePairs.add(new BasicNameValuePair("stolb49", defects));
+        nameValuePairs.add(new BasicNameValuePair("stolb50", defctsvedomost));
+        nameValuePairs.add(new BasicNameValuePair("stolb51", primechanie));
+        nameValuePairs.add(new BasicNameValuePair("stolb52", iskluchenie));
+        nameValuePairs.add(new BasicNameValuePair("stolb53", prichinaiskluchenia));
 
         HttpClient httpclient = HttpClients.createDefault();
         try {
-            HttpPost httppost = new HttpPost("http://peremoga.tech/Desktop/DefectoscopistBND2020.php");
+            HttpPost httppost = new HttpPost("http://peremoga.tech/Desktop/DefectBND2020.php");
             httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs, "UTF-8"));
             HttpResponse response = httpclient.execute(httppost);
             HttpEntity entity = response.getEntity();
