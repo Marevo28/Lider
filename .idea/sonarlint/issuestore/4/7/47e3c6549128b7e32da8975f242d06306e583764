@@ -1,0 +1,81 @@
+
+j
+java:S1104"QMake ZavTu a static final constant or non-public and provide accessors if needed.(„ü¯…ıÿÿÿÿ
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¾×úıûÿÿÿÿ8³àÜşŒ.
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¶¾³8ÖıŞŠ.
+C
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8„—šç‰.
+c	java:S116"PRename this field "RegTu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•Ô¦ã
+C
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8„—šç‰.
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çç²‚úÿÿÿÿ
+f	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üœª‘ıÿÿÿÿ
+Y
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(øƒã¯ûÿÿÿÿ8„—šç‰.
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¶¾³8Îğ„€.
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¶¾³8Îğ„€.
+m
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(§ÉòÌ
+Y
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(øƒã¯ûÿÿÿÿ8À–«±Œ.
+b
+java:S1192"IDefine a constant instead of duplicating this literal "position" 4 times.(ìÏİ³øÿÿÿÿ
+i	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çç²‚úÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¶¾³8Îğ„€.
+C
+java:S1148"#Use a logger to log this exception.(«ï·şÿÿÿÿÿ8À–«±Œ.
+h	java:S116"PRename this field "Obekt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ•Æáøÿÿÿÿ
+W	java:S107"=Method has 26 parameters, which is greater than 7 authorized.(²¶¾³8íã™ßŠ.
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(§ÉòÌ8ÖıŞŠ.
+C
+java:S1148"#Use a logger to log this exception.(«ï·şÿÿÿÿÿ8˜Ãªç‰.
+_
+java:S1192"FDefine a constant instead of duplicating this literal "UTF-8" 6 times.(©–îîûÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹‚†8Îğ„€.
+n
+java:S1104"ZMake Mestorozhdenie a static final constant or non-public and provide accessors if needed.(ÒŸ¹Õ
+i	java:S116"QRename this field "TypeTu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼‘¸Ëûÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¶¾³8Îğ„€.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8¦ñ„ÛŒ.
+l	java:S116"YRename this field "Mestorozhdenie" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒŸ¹Õ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹‚†8Îğ„€.
+C
+java:S1148"#Use a logger to log this exception.(«ï·şÿÿÿÿÿ8ÊÂ«ç‰.
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Œ„8Îğ„€.
+`	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ƒ€.
+k	java:S116"SRename this field "Position" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úºêòÿÿÿÿÿ
+C
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8À–«±Œ.
+m
+java:S1104"TMake Position a static final constant or non-public and provide accessors if needed.(úºêòÿÿÿÿÿ
+e
+java:S1104"RMake NameTu a static final constant or non-public and provide accessors if needed.(Î½ği
+R
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(øƒã¯ûÿÿÿÿ
+l	java:S116"TRename this field "Skvazhina" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÈœÖüÿÿÿÿ
+\
+java:S1854"<Remove this useless assignment to local variable "position".(ìÏİ³øÿÿÿÿ8€©ç‰.
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(§ÉòÌ8„—šç‰.
+C
+java:S1148"#Use a logger to log this exception.(«ï·şÿÿÿÿÿ8¢†¬ç‰.
+e
+java:S1104"QMake RegTu a static final constant or non-public and provide accessors if needed.(•Ô¦ã
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¶¾³8Îğ„€.
+k
+java:S1104"RMake TypeTu a static final constant or non-public and provide accessors if needed.(¼‘¸Ëûÿÿÿÿ
+C
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8À–«±Œ.
+V	java:S125"<This block of commented-out lines of code should be removed.(ÆàĞ­8µŞ×şŒ.
+<
+java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+c	java:S116"QRename this field "NameTu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î½ği
+n
+java:S1104"UMake Skvazhina a static final constant or non-public and provide accessors if needed.(‹ÈœÖüÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¶¾³8Îğ„€.
+M
+java:S1481"-Remove this unused "position" local variable.(ìÏİ³øÿÿÿÿ8€©ç‰.
+h	java:S116"PRename this field "ZavTu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ü¯…ıÿÿÿÿ
+j
+java:S1104"QMake Obekt a static final constant or non-public and provide accessors if needed.(œ•Æáøÿÿÿÿ

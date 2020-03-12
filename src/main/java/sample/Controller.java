@@ -45,6 +45,8 @@ public class Controller {
     String BND20PersNote6="Евсевьев А.А.";
     String BND20PersNote7="Тицкий Э.А.";
     String BND20PersNote8="Абдулин А.Р.";
+    String positions[] =new String[100];
+    int i=0;
 
     ObservableList<String> langs = FXCollections.observableArrayList("Абдулвалеев Р.Х.", "Абузаров Г.Р.", "Байкалов В.А.", "Батталов А.Г."/*,selectionBnd20.getText()*/);
 
@@ -55,31 +57,27 @@ public class Controller {
     @FXML
     private TableView<Position> tableMNG20;
     @FXML
-    private TableColumn<Position, String> idPosition;
+    private TableColumn<Position, String> idPositionBND20;
     @FXML
-    private TableColumn<Position, String> TypeTuColumn;
+    private TableColumn<Position, String> TypeTuColumnBND20;
     @FXML
-    private TableColumn<Position, String> NameTuColumn;
+    private TableColumn<Position, String> NameTuColumnBND20;
     @FXML
-    private TableColumn<Position, String> ZavTuColumn;
+    private TableColumn<Position, String> ZavTuColumnBND20;
     @FXML
-    private TableColumn<Position, String> RegTuColumn;
+    private TableColumn<Position, String> RegTuColumnBND20;
     @FXML
-    private TableColumn<Position, String> MestorozhdenieColumn;
+    private TableColumn<Position, String> MestorozhdenieColumnBND20;
     @FXML
-    private TableColumn<Position, String> ObektColumn;
+    private TableColumn<Position, String> ObektColumnBND20;
     @FXML
-    private TableColumn<Position, String> SkvazhinaColumn;
-    @FXML
-    private ScrollBar ScrollBarBND20;
+    private TableColumn<Position, String> SkvazhinaColumnBND20;
     @FXML
     private TextField TextMng20PapOpen, TextPositionMNG20;
     @FXML
     private TextField TextBnd20PapOpen, TextPositionBND20;
     @FXML
     private ListView ListView;
-    @FXML
-    private Label lable1;
     @FXML
     private TextArea TextDefectsBND20,TextPrimechanieBND20;
     @FXML
@@ -113,19 +111,7 @@ public class Controller {
     @FXML
     private Button ButBnd20SvodnayaSave;
     @FXML
-    private Button ButBnd20AgzuOpen;
-    @FXML
-    private Button ButBnd20SosudOpen;
-    @FXML
-    private Button ButBnd20SosudSave;
-    @FXML
-    private Button ButBnd20RvsOpen;
-    @FXML
-    private Button ButBnd20UaOpen;
-    @FXML
-    private Button ButBnd20SkOpen;
-    @FXML
-    private Button ButBnd20BgUrOpen;
+    private Button ButBnd20BgUrOpen, ButBnd20SkOpen,ButBnd20UaOpen,ButBnd20RvsOpen,ButBnd20SosudOpen,ButBnd20AgzuOpen,ButBnd20SosudSave;
     @FXML
     private Button ButBnd20UdeOpen;
     @FXML
@@ -189,9 +175,6 @@ public class Controller {
     Alert a = new Alert(Alert.AlertType.NONE);
     public int id=1;
 
-    public Controller() {
-    }
-
     @FXML
     private void initialize() {
         ListView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
@@ -242,14 +225,14 @@ public class Controller {
         BoxBND20SpecNote7.setText(BND20PersNote7);
         BoxBND20SpecNote8.setText(BND20PersNote8);
 
-        idPosition.setCellValueFactory(new PropertyValueFactory<Position, String>("position"));
-        TypeTuColumn.setCellValueFactory(new PropertyValueFactory<Position, String>("TypeTu"));
-        NameTuColumn.setCellValueFactory(new PropertyValueFactory<Position, String>("NameTu"));
-        ZavTuColumn.setCellValueFactory(new PropertyValueFactory<Position, String>("ZavTu"));
-        RegTuColumn.setCellValueFactory(new PropertyValueFactory<Position, String>("RegTu"));
-        MestorozhdenieColumn.setCellValueFactory(new PropertyValueFactory<Position, String>("Mestorozhdenie"));
-        ObektColumn.setCellValueFactory(new PropertyValueFactory<Position, String>("Obekt"));
-        SkvazhinaColumn.setCellValueFactory(new PropertyValueFactory<Position, String>("Skvazhina"));
+        idPositionBND20.setCellValueFactory(new PropertyValueFactory<Position, String>("position"));
+        TypeTuColumnBND20.setCellValueFactory(new PropertyValueFactory<Position, String>("TypeTu"));
+        NameTuColumnBND20.setCellValueFactory(new PropertyValueFactory<Position, String>("NameTu"));
+        ZavTuColumnBND20.setCellValueFactory(new PropertyValueFactory<Position, String>("ZavTu"));
+        RegTuColumnBND20.setCellValueFactory(new PropertyValueFactory<Position, String>("RegTu"));
+        MestorozhdenieColumnBND20.setCellValueFactory(new PropertyValueFactory<Position, String>("Mestorozhdenie"));
+        ObektColumnBND20.setCellValueFactory(new PropertyValueFactory<Position, String>("Obekt"));
+        SkvazhinaColumnBND20.setCellValueFactory(new PropertyValueFactory<Position, String>("Skvazhina"));
     }
 
     public void clickbnd() {
@@ -439,6 +422,7 @@ public class Controller {
         });
     }
     public void DefectoskpostBND() {
+
         ButAddSpisokBND20.setOnAction(Event -> {
             String position = TextPositionBND20.getText();
             if(position.length()==0){
@@ -449,7 +433,8 @@ public class Controller {
                 String zakazchik ="Башнефть 2020";
                 Zapros.PoiskPoSkvoznomu(position, zakazchik);
                 Spisok.add(new Position(id, Zapros.Position,Zapros.TypeTu,Zapros.NameTu,Zapros.ZavTu,Zapros.RegTu,Zapros.Mestorozhdenie, Zapros.Obekt,Zapros.Skvazhina));
-                id++;
+                positions[i]=Zapros.Position;
+                i++;
                 tableBND20.setItems(Spisok);
             }
         });
@@ -458,7 +443,6 @@ public class Controller {
             tableBND20.setItems(Spisok);
         });
         ButSendSpisokBND20.setOnAction(Event -> {
-            String position ="";
             String Ispolnenie="";
             String Factshurf="";
             String Actshurf="";
@@ -468,11 +452,11 @@ public class Controller {
             String iskluchenie="";
             String osmotr="";
             String documents="";
-
             String defctsvedomost="";
+
             String prichinaiskluchenia=TextIskluchenieBND20.getText();
-            String defects=TextPrimechanieBND20.getText();
-            String primechanie=TextDefectsBND20.getText();
+            String defects=TextDefectsBND20.getText();
+            String primechanie=TextPrimechanieBND20.getText();
             RadioButton selectedRadioButton1  = (RadioButton) ToggleBND20ispolnenie.getSelectedToggle();
             RadioButton selectedRadioButton2  = (RadioButton) ToggleBND20factshurf.getSelectedToggle();
             RadioButton selectedRadioButton3  = (RadioButton) ToggleBND20actshurf.getSelectedToggle();
@@ -485,83 +469,124 @@ public class Controller {
             RadioButton selectedRadioButton10  = (RadioButton)ToggleBND20documents.getSelectedToggle();
             if (selectedRadioButton1 == null){
                 Ispolnenie="";
-            } else if(selectedRadioButton1.getText()=="Подземное") {
+            } else if(selectedRadioButton1.getText().equals("Подземное")) {
                 Ispolnenie = "Подземное";
-            }else if(selectedRadioButton1.getText()=="Надземное") {
+            }else if(selectedRadioButton1.getText().equals("Надземное")) {
                 Ispolnenie = "Надземное";
             }
             if (selectedRadioButton2 == null){
                 Factshurf="";
-            }else if(selectedRadioButton2.getText()== "Нет") {
+            }else if(selectedRadioButton2.getText().equals("Нет")) {
                 Factshurf = "Нет";
-            }else if(selectedRadioButton2.getText()== "Да"){
+            }else if(selectedRadioButton2.getText().equals("Да")){
                 Factshurf="Да";
             }
             if (selectedRadioButton3 == null){
                 Factshurf="";
-            }else if(selectedRadioButton3.getText()== "Нет") {
+            }else if(selectedRadioButton3.getText().equals("Нет")) {
                 Actshurf = "Нет";
-            }else if(selectedRadioButton3.getText()== "Да"){
+            }else if(selectedRadioButton3.getText().equals("Да")){
                 Actshurf="Да";
             }
             if (selectedRadioButton4 == null){
                 Luklaz="";
-            }else if(selectedRadioButton4.getText()== "Нет") {
+            }else if(selectedRadioButton4.getText().equals("Нет")) {
                 Luklaz = "Нет";
-            }else if(selectedRadioButton4.getText()== "Да"){
+            }else if(selectedRadioButton4.getText().equals("Да")){
                 Luklaz="Да";
             }
             if (selectedRadioButton5 == null){
                 Naryad="";
-            }else if(selectedRadioButton5.getText()== "Нет") {
+            }else if(selectedRadioButton5.getText().equals("Нет")) {
                 Naryad = "Нет";
-            }else if(selectedRadioButton5.getText()== "Да"){
+            }else if(selectedRadioButton5.getText().equals("Да")){
                 Naryad="Да";
             }
             if (selectedRadioButton6 == null){
                 Ostanov="";
-            }else if(selectedRadioButton6.getText()== "Нет") {
+            }else if(selectedRadioButton6.getText().equals("Нет")) {
                 Ostanov = "Нет";
-            }else if(selectedRadioButton6.getText()== "Да"){
+            }else if(selectedRadioButton6.getText().equals("Да")){
                 Ostanov="Да";
             }
             if (selectedRadioButton7 == null){
                 iskluchenie="";
-            }else if(selectedRadioButton7.getText()== "Нет") {
+            }else if(selectedRadioButton7.getText().equals("Нет")) {
                 iskluchenie = "Нет";
-            }else if(selectedRadioButton7.getText()== "Да"){
+            }else if(selectedRadioButton7.getText().equals("Да")){
                 iskluchenie="Да";
             }
             if (selectedRadioButton8 == null){
-                iskluchenie="";
-            }else if(selectedRadioButton8.getText()== "Нет") {
-                iskluchenie = "Нет";
-            }else if(selectedRadioButton8.getText()== "Да"){
-                iskluchenie="Да";
+                defctsvedomost="";
+            }else if(selectedRadioButton8.getText().equals("Нет")) {
+                defctsvedomost = "Нет";
+            }else if(selectedRadioButton8.getText().equals("Да")){
+                defctsvedomost="Да";
             }
             if (selectedRadioButton9 == null){
                 osmotr="";
-            }else if(selectedRadioButton9.getText()== "Нет") {
+            }else if(selectedRadioButton9.getText().equals("Нет")) {
                 osmotr = "Нет";
-            }else if(selectedRadioButton9.getText()== "Да"){
+            }else if(selectedRadioButton9.getText().equals("Да")){
                 osmotr="Да";
             }
             if (selectedRadioButton10 == null){
                 documents="";
-            }else if(selectedRadioButton10.getText()== "Нет") {
+            }else if(selectedRadioButton10.getText().equals("Нет")) {
                 documents = "Нет";
-            }else if(selectedRadioButton10.getText()== "Да"){
+            }else if(selectedRadioButton10.getText().equals("Да")){
                 documents="Да";
             }
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.YYYY");
-            String ostanovstart= formatter.format(DataOstanovStartBND20.getValue());
-            String ostanovend= formatter.format(DataOstanovEndBND20.getValue());
-            String databeznk= formatter.format(DataBezNkBND20.getValue());
-            String dataactnegot= formatter.format(DataActNegotBND20.getValue());
-            String dataactnodoc= formatter.format(DataActNoDocBND20.getValue());
-            String datank= formatter.format(DataNkBND20.getValue());
-            String datanoteexp= formatter.format(DataNoteExpBND20.getValue());
-            String datanotepers= formatter.format(DataNotePersBND20.getValue());
+            String ostanovstart= "";
+            String ostanovend="";
+            String databeznk="";
+            String datank="";
+            String dataactnegot="";
+            String dataactnodoc="";
+            String datanoteexp="";
+            String datanotepers="";
+            if(DataOstanovStartBND20.getValue()==null) {
+                ostanovstart = "";
+            }else{
+            ostanovstart= formatter.format(DataOstanovStartBND20.getValue());
+            }
+
+            if(DataOstanovEndBND20.getValue()==null) {
+                ostanovend = "";
+            }else{
+                ostanovend= formatter.format(DataOstanovEndBND20.getValue());
+            }
+            if(DataBezNkBND20.getValue()==null) {
+                databeznk = "";
+            }else{
+                databeznk= formatter.format(DataBezNkBND20.getValue());
+            }
+            if(DataActNegotBND20.getValue()==null) {
+                dataactnegot = "";
+            }else{
+                dataactnegot= formatter.format(DataActNegotBND20.getValue());
+            }
+            if(DataActNoDocBND20.getValue()==null) {
+                dataactnodoc = "";
+            }else{
+                dataactnodoc= formatter.format(DataActNoDocBND20.getValue());
+            }
+            if(DataNkBND20.getValue()==null) {
+                datank = "";
+            }else{
+                datank= formatter.format(DataNkBND20.getValue());
+            }
+            if(DataNoteExpBND20.getValue()==null) {
+                datanoteexp = "";
+            }else{
+                datanoteexp= formatter.format(DataNoteExpBND20.getValue());
+            }
+            if(DataNotePersBND20.getValue()==null) {
+                datanotepers = "";
+            }else{
+                datanotepers= formatter.format(DataNotePersBND20.getValue());
+            }
 
             String SelectedPersBezNK = "";
             String SelectedPersNK = "";
@@ -612,9 +637,13 @@ public class Controller {
             if(BoxBND20SpecNote6.isSelected()) SelectedPersNote += BND20PersNote6 + ", ";
             if(BoxBND20SpecNote7.isSelected()) SelectedPersNote += BND20PersNote7 + ", ";
             if(BoxBND20SpecNote8.isSelected()) SelectedPersNote += BND20PersNote8 + ", ";
-
-            Zapros.SendSpisokBND20(position,datanoteexp,SelectedExpNote,datanotepers,SelectedPersNote, Ispolnenie, Factshurf, Actshurf, Luklaz, Naryad, Ostanov,iskluchenie, ostanovstart,ostanovend,osmotr, databeznk, dataactnegot, dataactnodoc,datank, SelectedPersBezNK,SelectedPersNK,prichinaiskluchenia,defects,primechanie,defctsvedomost,documents);
-
+            while(i!=0) {
+                i--;
+            Zapros.SendSpisokBND20(positions[i], datanoteexp, SelectedExpNote, datanotepers, SelectedPersNote, Ispolnenie, Factshurf, Actshurf, Luklaz, Naryad,
+                    Ostanov, ostanovstart, ostanovend, osmotr, databeznk, SelectedPersBezNK, dataactnegot, dataactnodoc, datank, SelectedPersNK,documents,defects, defctsvedomost,primechanie, iskluchenie,prichinaiskluchenia);
+            }
+            Spisok.clear();
+            tableBND20.setItems(Spisok);
         });
     }
 }

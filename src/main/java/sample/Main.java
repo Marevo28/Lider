@@ -16,7 +16,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
 
 
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("main/java/sample/sample.fxml"));
         primaryStage.setTitle("Lider-Express");
         primaryStage.setScene(new Scene(root, 1200, 900));
         primaryStage.show();

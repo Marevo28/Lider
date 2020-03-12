@@ -106,9 +106,9 @@ public class Zapros {
             e.printStackTrace();
         }
     }
-    public void SendSpisokBND20(String position,String datanoteexp,String SelectedExpNote,String datanotepers,String SelectedPersNote, String Ispolnenie, String Factshurf, String Actshurf, String Luklaz, String Naryad, String Ostanov, String OstanovStart,
-                                String OstanovEnd,String osmotr, String databeznk, String dataactnegot, String dataactnodoc, String datank,String SelectedPersBezNK,String SelectedPersNK,String prichinaiskluchenia,String defects,String primechanie,
-                                String defctsvedomost,String iskluchenie,String documents) {
+    public void SendSpisokBND20(String position, String datanoteexp,String  SelectedExpNote,String  datanotepers,String  SelectedPersNote, String  Ispolnenie,String  Factshurf,String  Actshurf, String luklaz, String Naryad,
+                                String Ostanov,String  ostanovstart, String ostanovend, String osmotr, String databeznk, String SelectedPersBezNK, String dataactnegot, String dataactnodoc, String datank,
+                                String SelectedPersNK,String documents,String defects, String defctsvedomost,String primechanie,String  iskluchenie,String prichinaiskluchenia) {
         ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
         // один параметр, если нужно два и более просто добоовляем также
         nameValuePairs.add(new BasicNameValuePair("position", position));
@@ -119,11 +119,11 @@ public class Zapros {
         nameValuePairs.add(new BasicNameValuePair("stolb31", Ispolnenie));
         nameValuePairs.add(new BasicNameValuePair("stolb32", Factshurf));
         nameValuePairs.add(new BasicNameValuePair("stolb33", Actshurf));
-        nameValuePairs.add(new BasicNameValuePair("stolb34", Luklaz));
+        nameValuePairs.add(new BasicNameValuePair("stolb34", luklaz));
         nameValuePairs.add(new BasicNameValuePair("stolb35", Naryad));
         nameValuePairs.add(new BasicNameValuePair("stolb36", Ostanov));
-        nameValuePairs.add(new BasicNameValuePair("stolb37", OstanovStart));
-        nameValuePairs.add(new BasicNameValuePair("stolb38", OstanovEnd));
+        nameValuePairs.add(new BasicNameValuePair("stolb37", ostanovstart));
+        nameValuePairs.add(new BasicNameValuePair("stolb38", ostanovend));
         nameValuePairs.add(new BasicNameValuePair("stolb39", osmotr));
         //nameValuePairs.add(new BasicNameValuePair("stolb40", )); Планирование
         //nameValuePairs.add(new BasicNameValuePair("stolb41", )); Планирование
@@ -142,7 +142,7 @@ public class Zapros {
 
         HttpClient httpclient = HttpClients.createDefault();
         try {
-            HttpPost httppost = new HttpPost("http://peremoga.tech/Desktop/DefectBND2020.php");
+            HttpPost httppost = new HttpPost("http://peremoga.tech/Android/DefectBND2020.php");
             httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs, "UTF-8"));
             HttpResponse response = httpclient.execute(httppost);
             HttpEntity entity = response.getEntity();
@@ -157,19 +157,13 @@ public class Zapros {
                 sb.append(line + "\n"); }
             is.close();
             result = sb.toString();
+            System.out.printf(result);
         } catch (Exception e) { e.printStackTrace();
 
         }
         try {
-            JSONObject json_data = new JSONObject(result);
-            Position = json_data.getString("position");
-            TypeTu = json_data.getString("TypeTu");
-            NameTu = json_data.getString("NameTu");
-            ZavTu = json_data.getString("ZavTu");
-            RegTu = json_data.getString("RegTu");
-            Mestorozhdenie = json_data.getString("Mestorozhdenie");
-            Obekt = json_data.getString("Obekt");
-            Skvazhina = json_data.getString("Skvazhina");
+           // JSONObject json_data = new JSONObject(result);
+           // Position = json_data.getString("position");
         } catch (Exception e) {
             e.printStackTrace();
         }

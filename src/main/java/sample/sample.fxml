@@ -137,14 +137,10 @@
                                           <Label alignment="CENTER" contentDisplay="CENTER" layoutX="923.0" layoutY="527.0" prefHeight="19.0" prefWidth="239.0" text="Позиция исключена" textAlignment="CENTER" wrapText="true" />
                                           <RadioButton layoutX="923.0" layoutY="548.0" mnemonicParsing="false" text="Да">
                                              <toggleGroup>
-                                                <ToggleGroup fx:id="ToggleBND20defctsvedomost" />
+                                                <ToggleGroup fx:id="ToggleBND20iskluchenie" />
                                              </toggleGroup>
                                           </RadioButton>
-                                          <RadioButton layoutX="923.0" layoutY="574.0" mnemonicParsing="false" text="Нет">
-                                             <toggleGroup>
-                                                <ToggleGroup fx:id="ToggleBND20defctsvedomost" />
-                                             </toggleGroup>
-                                          </RadioButton>
+                                          <RadioButton layoutX="923.0" layoutY="574.0" mnemonicParsing="false" text="Нет" toggleGroup="$ToggleBND20iskluchenie" />
                                           <TextField fx:id="TextIskluchenieBND20" layoutX="927.0" layoutY="612.0" prefHeight="65.0" prefWidth="242.0" />
                                           <Label alignment="CENTER" contentDisplay="CENTER" layoutX="930.0" layoutY="587.0" prefHeight="19.0" prefWidth="239.0" text="Причина исключения" textAlignment="CENTER" wrapText="true" />
                                           <ScrollBar fx:id="ScrollBarBND20" layoutX="1186.0" layoutY="-30.0" orientation="VERTICAL" prefHeight="758.0" prefWidth="14.0" />
