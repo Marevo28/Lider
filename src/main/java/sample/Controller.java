@@ -113,61 +113,13 @@ public class Controller {
     @FXML
     private Button ButMng20PapkOpen;
     @FXML
-    private Button ButBnd20SvodnayaOpen;
+    private Button ButBnd20SvodnayaSave, ButBnd20SvodnayaOpen,ButBnd20BgUrOpen,ButBnd20BgUrSave, ButBnd20SkOpen,ButBnd20SkSave,ButBnd20UaOpen,ButBnd20UaSave,
+                   ButBnd20RvsOpen,ButBnd20RvsSave,ButBnd20SosudOpen, ButBnd20AgzuOpen,ButBnd20AgzuSave,ButBnd20AEOpen,ButBnd20AESave,ButBnd20VentOpen,
+                   ButBnd20VentSave,ButBnd20SosudSave,ButBnd20NasosOpen, ButBnd20NasosSave, ButBnd20UdeOpen,ButBnd20UdeSave,ButBnd20MoneyOpen;
     @FXML
-    private Button ButBnd20SvodnayaSave;
-    @FXML
-    private Button ButBnd20BgUrOpen, ButBnd20SkOpen,ButBnd20UaOpen,ButBnd20RvsOpen,ButBnd20SosudOpen,ButBnd20AgzuOpen,ButBnd20SosudSave;
-    @FXML
-    private Button ButBnd20UdeOpen;
-    @FXML
-    private Button ButBnd20NasosOpen;
-    @FXML
-    private Button ButBnd20NasosSave;
-    @FXML
-    private Button ButBnd20MoneyOpen;
-    @FXML
-    private Button ButMng20SvodnayaOpen;
-    @FXML
-    private Button ButMng20PromyselOpen;
-    @FXML
-    private Button ButMng20TechnOpen;
-    @FXML
-    private Button ButMng20SosudOpen;
-    @FXML
-    private Button ButMng20UaOpen;
-    @FXML
-    private Button ButMng20AgzuOpen;
-    @FXML
-    private Button ButMng20BgUrOpen;
-    @FXML
-    private Button ButMng20RvsOpen;
-    @FXML
-    private Button ButMng20NasosOpen;
-    @FXML
-    private Button ButMng20MoneyOpen;
-    @FXML
-    private Button ButMng20SvodnayaSave;
-    @FXML
-    private Button ButMng20PromyselSave;
-    @FXML
-    private Button ButMng20TechnSave;
-    @FXML
-    private Button ButMng20SosudSave;
-    @FXML
-    private Button ButMng20UaSaven;
-    @FXML
-    private Button ButMng20AgzuSave;
-    @FXML
-    private Button ButMng20BgUrSave;
-    @FXML
-    private Button ButMng20RvsSave;
-    @FXML
-    private Button ButMng20NasosSave;
-    @FXML
-    private Button ButMng20KompresOpen;
-    @FXML
-    private Button ButMng20KompresSave;
+    private Button ButMng20SvodnayaOpen,ButMng20PromyselOpen,ButMng20TechnOpen,ButMng20SosudOpen,ButMng20UaOpen,ButMng20AgzuOpen,ButMng20BgUrOpen,ButMng20RvsOpen,
+                   ButMng20NasosOpen,ButMng20MoneyOpen,ButMng20SvodnayaSave,ButMng20PromyselSave,ButMng20TechnSave,ButMng20SosudSave,ButMng20UaSaven,ButMng20AgzuSave,ButMng20BgUrSave,
+                   ButMng20RvsSave,ButMng20NasosSave,ButMng20KompresOpen,ButMng20KompresSave;
     @FXML
     private CheckBox BoxBND20ExpNonte1, BoxBND20ExpNonte2,BoxBND20ExpNonte3,BoxBND20ExpNonte4, BoxBND20SpecNote1,BoxBND20SpecNote2,BoxBND20SpecNote3,BoxBND20SpecNote4,BoxBND20SpecNote5,BoxBND20SpecNote6,BoxBND20SpecNote7,BoxBND20SpecNote8;
     @FXML
@@ -242,30 +194,32 @@ public class Controller {
     }
 
     public void clickbnd() {
-        ButBnd20SvodnayaOpen.setOnAction(Event -> {
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1JdPtXLrRxmLAqvBIKczJ0p_GRtRUfMyfr1DDtaR1fqc/edit#gid=1158543");
-        });
-        ButBnd20SvodnayaSave.setOnAction(Event -> {
-            Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1JdPtXLrRxmLAqvBIKczJ0p_GRtRUfMyfr1DDtaR1fqc/export?format=xlsx");
-        });
-        ButBnd20NasosOpen.setOnAction(Event -> {
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1kLUmeZdywOmCDK2QP-zgvYLDOBbyHMqMBForkss10m4/edit#gid=228724568");
-        });
-        ButBnd20NasosSave.setOnAction(Event -> {
-            Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1kLUmeZdywOmCDK2QP-zgvYLDOBbyHMqMBForkss10m4/export?format=xlsx");
-        });
-        ButBnd20SosudOpen.setOnAction(Event -> {
-            Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1Ghp7oQ1fHG4zEp2DWp8_h09Br9EODaOqq0D6Nasw1PE/edit#gid=1406996571");
-        });
-        ButBnd20SosudSave.setOnAction(Event -> {
-            Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1Ghp7oQ1fHG4zEp2DWp8_h09Br9EODaOqq0D6Nasw1PE/export?format=xlsx");
-        });
-        ButBnd20MoneyOpen.setOnAction(Event -> {
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/16tJdfdXr8UDO-E0LTzNn_vDP48PCsJpN_7wgkApcR80/edit#gid=1623052075");
-        });
+        ButBnd20SvodnayaOpen.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/d/1JdPtXLrRxmLAqvBIKczJ0p_GRtRUfMyfr1DDtaR1fqc/edit#gid=1158543");});
+        ButBnd20SvodnayaSave.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1JdPtXLrRxmLAqvBIKczJ0p_GRtRUfMyfr1DDtaR1fqc/export?format=xlsx");});
+        ButBnd20AgzuOpen.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/d/1C4RCmBfLe75qnpzer_nUC5KDNvw-xZsi8NNuCxP5WOk/edit#gid=2015398254");});
+        ButBnd20AgzuSave.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1C4RCmBfLe75qnpzer_nUC5KDNvw-xZsi8NNuCxP5WO/export?format=xlsx");});
+        ButBnd20AEOpen.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/d/1P_jeQtPP-BslYhds05i2m_jlHennn0vWvwJLL-VDI7Y/edit#gid=85688918");});
+        ButBnd20AESave.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1P_jeQtPP-BslYhds05i2m_jlHennn0vWvwJLL-VDI7Y/export?format=xlsx");});
+        ButBnd20BgUrOpen.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/d/1r_mhfIOB2k3Jd6d8jjxe1rjPwSwtYgH8di5d9dI7YG0/edit#gid=510578297");});
+        ButBnd20BgUrSave.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1r_mhfIOB2k3Jd6d8jjxe1rjPwSwtYgH8di5d9dI7YG0/export?format=xlsx");});
+        ButBnd20VentOpen.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/d/1Kk4hZJU214RQ_vNmGqL0CEOtjoDvsGezPmu5aMGWH7M/edit#gid=1281951509");});
+        ButBnd20VentSave.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1Kk4hZJU214RQ_vNmGqL0CEOtjoDvsGezPmu5aMGWH7M/export?format=xlsx");});
+        ButBnd20NasosOpen.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/d/1kLUmeZdywOmCDK2QP-zgvYLDOBbyHMqMBForkss10m4/edit#gid=228724568");});
+        ButBnd20NasosSave.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1kLUmeZdywOmCDK2QP-zgvYLDOBbyHMqMBForkss10m4/export?format=xlsx");});
+        ButBnd20RvsOpen.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/d/1RGdUPNksM7T1c__kEMB7unmObuWu9t1lCK-nw4hECG4/edit#gid=551268815");});
+        ButBnd20RvsSave.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1RGdUPNksM7T1c__kEMB7unmObuWu9t1lCK-nw4hECG4/export?format=xlsx");});
+        ButBnd20SkOpen.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/d/1v3qVOBULyx_TodipeYbCyTi-XSycOu5PMYflUO9uvl4/edit#gid=147906319");});
+        ButBnd20SkSave.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1v3qVOBULyx_TodipeYbCyTi-XSycOu5PMYflUO9uvl4/export?format=xlsx");});
+        ButBnd20SosudOpen.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/d/1Ghp7oQ1fHG4zEp2DWp8_h09Br9EODaOqq0D6Nasw1PE/edit#gid=1406996571");});
+        ButBnd20SosudSave.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1Ghp7oQ1fHG4zEp2DWp8_h09Br9EODaOqq0D6Nasw1PE/export?format=xlsx");});
+        ButBnd20UaOpen.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/d/1bge-fnHYwqZ7aUEZBZh00H8wOV2CSlt82ZSAOp4fhe8/edit#gid=737334254");});
+        ButBnd20UaSave.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1bge-fnHYwqZ7aUEZBZh00H8wOV2CSlt82ZSAOp4fhe8/export?format=xlsx");});
+        ButBnd20UdeOpen.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/d/1iBzu5VX232JbfF8gvVeEtf_K6MZGrLl9_HbGgyubBzI/edit#gid=1558730195");});
+        ButBnd20UdeSave.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/u/1/d/1iBzu5VX232JbfF8gvVeEtf_K6MZGrLl9_HbGgyubBzI/export?format=xlsx");});
+        ButBnd20MoneyOpen.setOnAction(Event -> { Perehod.Perehod("https://docs.google.com/spreadsheets/d/16tJdfdXr8UDO-E0LTzNn_vDP48PCsJpN_7wgkApcR80/edit#gid=1623052075");});
         ButBnd20PapkOpen.setOnAction(Event -> {
 
-            RadioButton selectedRadioButton   = (RadioButton) ToggleBnd20.getSelectedToggle();
+            RadioButton selectedRadioButton = (RadioButton) ToggleBnd20.getSelectedToggle();
             if ("По сквозному".equals(selectedRadioButton.getText())) {
                 String PapkaBnd = TextBnd20PapOpen.getText();
                 String ZakazchikBnd = "N:/Отдел ЭПБ/1. Архив исходных документов от заказчиков/2020/Башнефть-Добыча/2. Документы на ТУ";
@@ -277,69 +231,28 @@ public class Controller {
         });
     }
     public void clickmng() {
-        ButMng20SvodnayaOpen.setOnAction(Event -> {//Мегион Сводная
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1xGdmmJ7D7K7C-Yd7F3SpYxqYu6YSOBjPv_4QdDdd0dc/edit#gid=770641835");
-        });
-        ButMng20SvodnayaSave.setOnAction(Event -> {//Мегион Сводная
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1xGdmmJ7D7K7C-Yd7F3SpYxqYu6YSOBjPv_4QdDdd0dc/export?format=xlsx");
-        });
-        ButMng20PromyselOpen.setOnAction(Event -> {//Мегион Промысел
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1qH-v8VcNDU0rCHREOS4UzSFz6Qi4PZThmm-gwTi14yg/edit#gid=167986224");
-        });
-        ButMng20PromyselSave.setOnAction(Event -> {//Мегион Промысел
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1qH-v8VcNDU0rCHREOS4UzSFz6Qi4PZThmm-gwTi14yg/export?format=xlsx");
-        });
-        ButMng20TechnOpen.setOnAction(Event -> {//Мегион Техноложка
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1ffYiIrxeRqXjS1msFcxw-rEc4m6hIzLG3dV5Sj_RqwI/edit#gid=167986224");
-        });
-        ButMng20TechnSave.setOnAction(Event -> {//Мегион Техноложка
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1ffYiIrxeRqXjS1msFcxw-rEc4m6hIzLG3dV5Sj_RqwI/export?format=xlsx");
-        });
-        ButMng20SosudOpen.setOnAction(Event -> {//Мегион Сосуды
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1rCAZDQ1hTrioPVrmJGrSPkuaPSNHwI7c4Obr4xJDGd4/edit#gid=2037736545");
-        });
-        ButMng20SosudSave.setOnAction(Event -> {//Мегион Сосуды
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1rCAZDQ1hTrioPVrmJGrSPkuaPSNHwI7c4Obr4xJDGd4/export?format=xlsx");
-        });
-        ButMng20UaOpen.setOnAction(Event -> {//Мегион УА
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1NAS5cIJaWy8PlS01iZViMbJQW9y3H-QMNpU70C0tWQk/edit#gid=167986224");
-        });
-        ButMng20UaSaven.setOnAction(Event -> {//Мегион УА
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1NAS5cIJaWy8PlS01iZViMbJQW9y3H-QMNpU70C0tWQk/export?format=xlsx");
-        });
-        ButMng20AgzuOpen.setOnAction(Event -> {//Мегион Агзу
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1XaO42_wvhRcHPToACQWEr2XIUeBrS4ktfM_lNMpb3Ic/edit#gid=1853339197");
-        });
-        ButMng20AgzuSave.setOnAction(Event -> {//Мегион Агзу
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1XaO42_wvhRcHPToACQWEr2XIUeBrS4ktfM_lNMpb3Ic/export?format=xlsx");
-        });
-        ButMng20BgUrOpen.setOnAction(Event -> {//Мегион БГ
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/10YKvp2OVcejUluXrcggA8b_ZfFunowiCde5j2RFjhxE/edit#gid=510578297");
-        });
-        ButMng20BgUrSave.setOnAction(Event -> {//Мегион БГ
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/10YKvp2OVcejUluXrcggA8b_ZfFunowiCde5j2RFjhxE/export?format=xlsx");
-        });
-        ButMng20RvsOpen.setOnAction(Event -> {//Мегион РВС
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1_UH84ZwFPOE0tCnlLgRIEgCyezSEBm4XBF8Pa2PeYLQ/edit#gid=357399027");
-        });
-        ButMng20RvsSave.setOnAction(Event -> {//Мегион РВС
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1_UH84ZwFPOE0tCnlLgRIEgCyezSEBm4XBF8Pa2PeYLQ/export?format=xlsx");
-        });
-        ButMng20NasosOpen.setOnAction(Event -> {//Мегион Насос
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/12T4rftlBaySthuRu8_T7wfhMuYtMdJWdrcv4LqLIw70/edit#gid=1853339197");
-        });
-        ButMng20NasosSave.setOnAction(Event -> {//Мегион Насос
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/12T4rftlBaySthuRu8_T7wfhMuYtMdJWdrcv4LqLIw70/export?format=xlsx");
-        });
-        ButMng20KompresOpen.setOnAction(Event -> {//Мегион Компрессор
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1_GGGGT5QMUajH5uTvRg9kJhf6qVhMDurqKLbhqI4RVE/edit#gid=2024792800");
-        });
-        ButMng20KompresSave.setOnAction(Event -> {//Мегион Компрессор
-            Perehod.Perehod("https://docs.google.com/spreadsheets/d/1_GGGGT5QMUajH5uTvRg9kJhf6qVhMDurqKLbhqI4RVE/export?format=xlsx");
-        });
+        ButMng20SvodnayaOpen.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1xGdmmJ7D7K7C-Yd7F3SpYxqYu6YSOBjPv_4QdDdd0dc/edit#gid=770641835");});
+        ButMng20SvodnayaSave.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1xGdmmJ7D7K7C-Yd7F3SpYxqYu6YSOBjPv_4QdDdd0dc/export?format=xlsx");});
+        ButMng20PromyselOpen.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1qH-v8VcNDU0rCHREOS4UzSFz6Qi4PZThmm-gwTi14yg/edit#gid=167986224");});
+        ButMng20PromyselSave.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1qH-v8VcNDU0rCHREOS4UzSFz6Qi4PZThmm-gwTi14yg/export?format=xlsx");});
+        ButMng20TechnOpen.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1ffYiIrxeRqXjS1msFcxw-rEc4m6hIzLG3dV5Sj_RqwI/edit#gid=167986224");});
+        ButMng20TechnSave.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1ffYiIrxeRqXjS1msFcxw-rEc4m6hIzLG3dV5Sj_RqwI/export?format=xlsx");});
+        ButMng20SosudOpen.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1rCAZDQ1hTrioPVrmJGrSPkuaPSNHwI7c4Obr4xJDGd4/edit#gid=2037736545");});
+        ButMng20SosudSave.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1rCAZDQ1hTrioPVrmJGrSPkuaPSNHwI7c4Obr4xJDGd4/export?format=xlsx");});
+        ButMng20UaOpen.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1NAS5cIJaWy8PlS01iZViMbJQW9y3H-QMNpU70C0tWQk/edit#gid=167986224");});
+        ButMng20UaSaven.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1NAS5cIJaWy8PlS01iZViMbJQW9y3H-QMNpU70C0tWQk/export?format=xlsx"); });
+        ButMng20AgzuOpen.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1XaO42_wvhRcHPToACQWEr2XIUeBrS4ktfM_lNMpb3Ic/edit#gid=1853339197");});
+        ButMng20AgzuSave.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1XaO42_wvhRcHPToACQWEr2XIUeBrS4ktfM_lNMpb3Ic/export?format=xlsx");});
+        ButMng20BgUrOpen.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/10YKvp2OVcejUluXrcggA8b_ZfFunowiCde5j2RFjhxE/edit#gid=510578297");});
+        ButMng20BgUrSave.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/10YKvp2OVcejUluXrcggA8b_ZfFunowiCde5j2RFjhxE/export?format=xlsx");});
+        ButMng20RvsOpen.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1_UH84ZwFPOE0tCnlLgRIEgCyezSEBm4XBF8Pa2PeYLQ/edit#gid=357399027");});
+        ButMng20RvsSave.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1_UH84ZwFPOE0tCnlLgRIEgCyezSEBm4XBF8Pa2PeYLQ/export?format=xlsx");});
+        ButMng20NasosOpen.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/12T4rftlBaySthuRu8_T7wfhMuYtMdJWdrcv4LqLIw70/edit#gid=1853339197");});
+        ButMng20NasosSave.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/12T4rftlBaySthuRu8_T7wfhMuYtMdJWdrcv4LqLIw70/export?format=xlsx");});
+        ButMng20KompresOpen.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1_GGGGT5QMUajH5uTvRg9kJhf6qVhMDurqKLbhqI4RVE/edit#gid=2024792800");});
+        ButMng20KompresSave.setOnAction(Event -> {Perehod.Perehod("https://docs.google.com/spreadsheets/d/1_GGGGT5QMUajH5uTvRg9kJhf6qVhMDurqKLbhqI4RVE/export?format=xlsx");});
         ButMng20MoneyOpen.setOnAction(Event -> {//Мегион Деньги
-            Perehod.Perehod("");
-        });
+            Perehod.Perehod(""); });
         ButMng20PapkOpen.setOnAction(Event -> {
             String PapkaMng = TextMng20PapOpen.getText();
             String ZakazchikMng = "N:/Отдел ЭПБ/1. Архив исходных документов от заказчиков/2020/Славнефть-Мегионнефтегаз/2. Документы на ТУ";

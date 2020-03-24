@@ -321,104 +321,120 @@
                      <children>
                         <TabPane fx:id="Office" prefHeight="900.0" prefWidth="850.0" style="-fx-background-color: white;" tabClosingPolicy="UNAVAILABLE">
                           <tabs>
-                            <Tab text="Башнефть 2020">
-                              <content>
-                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="850.0" prefWidth="782.0" style="-fx-background-color: white;">
-                                       <children>
-                                          <Button fx:id="ButBnd20PapkOpen" layoutX="158.0" layoutY="15.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
-                                          <TextField fx:id="TextBnd20PapOpen" layoutX="28.0" layoutY="15.0" prefHeight="8.0" prefWidth="109.0" promptText="Сквозной №">
-                                             <font>
-                                                <Font size="14.0" />
-                                             </font>
-                                          </TextField>
-                                          <Button fx:id="ButBnd20SvodnayaOpen" layoutX="256.0" layoutY="50.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
-                                          <Button fx:id="ButBnd20AgzuOpen" layoutX="256.0" layoutY="85.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
-                                          <Button fx:id="ButBnd20SosudOpen" layoutX="256.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
-                                          <Button fx:id="ButBnd20RvsOpen" layoutX="256.0" layoutY="155.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
-                                          <Button fx:id="ButBnd20UaOpen" layoutX="256.0" layoutY="190.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
-                                          <Button fx:id="ButBnd20SkOpen" layoutX="256.0" layoutY="225.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
-                                          <Button fx:id="ButBnd20BgUrOpen" layoutX="256.0" layoutY="260.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
-                                          <Button fx:id="ButBnd20UdeOpen" layoutX="256.0" layoutY="295.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
-                                          <Button fx:id="ButBnd20NasosOpen" layoutX="256.0" layoutY="330.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
-                                          <Button fx:id="ButBnd20MoneyOpen" layoutX="256.0" layoutY="365.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
-                                          <Button fx:id="ButBnd20SvodnayaSave" layoutX="349.0" layoutY="50.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
-                                          <Button fx:id="ButBnd20AgzuSave" layoutX="349.0" layoutY="85.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
-                                          <Button fx:id="ButBnd20SosudSave" layoutX="349.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
-                                          <Button fx:id="ButBnd20RvsSave" layoutX="349.0" layoutY="155.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
-                                          <Button fx:id="ButBnd20UaSaven" layoutX="349.0" layoutY="190.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
-                                          <Button fx:id="ButBnd20SkSave" layoutX="349.0" layoutY="225.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
-                                          <Button fx:id="ButBnd20BgUrSave" layoutX="349.0" layoutY="260.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
-                                          <Button fx:id="ButBnd20UdeSave" layoutX="349.0" layoutY="295.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
-                                          <Button fx:id="ButBnd20NasosSave" layoutX="349.0" layoutY="330.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
-                                          <Label layoutX="31.0" layoutY="120.0" text="Сосуды">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="31.0" layoutY="155.0" text="РВС">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="31.0" layoutY="190.0" text="Устьевая арматура">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="31.0" layoutY="225.0" text="Станок-качалка">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="30.0" layoutY="260.0" text="Блочка БГ,УР">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="31.0" layoutY="295.0" text="Блочка УДЭ, БР, БДР">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="31.0" layoutY="330.0" text="Насосы">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="30.0" layoutY="85.0" text="АГЗУ">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="31.0" layoutY="365.0" text="Деньги">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="30.0" layoutY="50.0" text="Сводная">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <Label layoutX="256.0" layoutY="18.0">
-                                             <font>
-                                                <Font size="14.0" />
-                                             </font>
-                                          </Label>
-                                          <HBox layoutX="249.0" layoutY="22.0" prefHeight="25.0" prefWidth="322.0" spacing="20.0">
-                                             <children>
-                                                <RadioButton fx:id="RadBnd20Skvoznoi" mnemonicParsing="false" selected="true" text="По сквозному">
-                                                   <toggleGroup>
-                                                      <ToggleGroup fx:id="ToggleBnd20" />
-                                                   </toggleGroup>
-                                                </RadioButton>
-                                                <RadioButton fx:id="RadBnd20Nomzakl" mnemonicParsing="false" text="По номеру заключения" toggleGroup="$ToggleBnd20" />
-                                             </children>
-                                          </HBox>
-                                       </children>
-                                    </AnchorPane>
-                              </content>
-                            </Tab>
+                              <Tab text="Башнефть 2020">
+                                  <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="850.0" prefWidth="782.0" style="-fx-background-color: white;">
+                                          <children>
+                                              <Button fx:id="ButBnd20PapkOpen" layoutX="158.0" layoutY="15.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <TextField fx:id="TextBnd20PapOpen" layoutX="28.0" layoutY="15.0" prefHeight="8.0" prefWidth="109.0" promptText="Сквозной №">
+                                                  <font>
+                                                      <Font size="14.0" />
+                                                  </font>
+                                              </TextField>
+                                              <Button fx:id="ButBnd20SvodnayaOpen" layoutX="256.0" layoutY="50.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <Button fx:id="ButBnd20AgzuOpen" layoutX="256.0" layoutY="85.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <Button fx:id="ButBnd20SosudOpen" layoutX="256.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <Button fx:id="ButBnd20RvsOpen" layoutX="256.0" layoutY="155.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <Button fx:id="ButBnd20UaOpen" layoutX="256.0" layoutY="190.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <Button fx:id="ButBnd20SkOpen" layoutX="256.0" layoutY="225.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <Button fx:id="ButBnd20BgUrOpen" layoutX="256.0" layoutY="260.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <Button fx:id="ButBnd20UdeOpen" layoutX="256.0" layoutY="295.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <Button fx:id="ButBnd20NasosOpen" layoutX="256.0" layoutY="330.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <Button fx:id="ButBnd20MoneyOpen" layoutX="256.0" layoutY="436.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <Button fx:id="ButBnd20SvodnayaSave" layoutX="349.0" layoutY="50.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
+                                              <Button fx:id="ButBnd20AgzuSave" layoutX="349.0" layoutY="85.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
+                                              <Button fx:id="ButBnd20SosudSave" layoutX="349.0" layoutY="120.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
+                                              <Button fx:id="ButBnd20RvsSave" layoutX="349.0" layoutY="155.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
+                                              <Button fx:id="ButBnd20UaSaven" layoutX="349.0" layoutY="190.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
+                                              <Button fx:id="ButBnd20SkSave" layoutX="349.0" layoutY="225.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
+                                              <Button fx:id="ButBnd20BgUrSave" layoutX="349.0" layoutY="260.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
+                                              <Button fx:id="ButBnd20UdeSave" layoutX="349.0" layoutY="295.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
+                                              <Button fx:id="ButBnd20NasosSave" layoutX="349.0" layoutY="330.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
+                                              <Label layoutX="31.0" layoutY="120.0" text="Сосуды">
+                                                  <font>
+                                                      <Font size="16.0" />
+                                                  </font>
+                                              </Label>
+                                              <Label layoutX="31.0" layoutY="155.0" text="РВС">
+                                                  <font>
+                                                      <Font size="16.0" />
+                                                  </font>
+                                              </Label>
+                                              <Label layoutX="31.0" layoutY="190.0" text="Устьевая арматура">
+                                                  <font>
+                                                      <Font size="16.0" />
+                                                  </font>
+                                              </Label>
+                                              <Label layoutX="31.0" layoutY="225.0" text="Станок-качалка">
+                                                  <font>
+                                                      <Font size="16.0" />
+                                                  </font>
+                                              </Label>
+                                              <Label layoutX="30.0" layoutY="260.0" text="Блочка БГ,УР">
+                                                  <font>
+                                                      <Font size="16.0" />
+                                                  </font>
+                                              </Label>
+                                              <Label layoutX="31.0" layoutY="295.0" text="Блочка УДЭ, БР, БДР">
+                                                  <font>
+                                                      <Font size="16.0" />
+                                                  </font>
+                                              </Label>
+                                              <Label layoutX="31.0" layoutY="330.0" text="Насосы">
+                                                  <font>
+                                                      <Font size="16.0" />
+                                                  </font>
+                                              </Label>
+                                              <Label layoutX="30.0" layoutY="85.0" text="АГЗУ">
+                                                  <font>
+                                                      <Font size="16.0" />
+                                                  </font>
+                                              </Label>
+                                              <Label layoutX="31.0" layoutY="436.0" text="Деньги">
+                                                  <font>
+                                                      <Font size="16.0" />
+                                                  </font>
+                                              </Label>
+                                              <Label layoutX="30.0" layoutY="50.0" text="Сводная">
+                                                  <font>
+                                                      <Font size="16.0" />
+                                                  </font>
+                                              </Label>
+                                              <Label layoutX="256.0"
+
+                                                     layoutY="18.0">
+                                                  <font>
+                                                      <Font size="14.0" />
+                                                  </font>
+                                              </Label>
+                                              <HBox layoutX="249.0" layoutY="22.0" prefHeight="25.0" prefWidth="322.0" spacing="20.0">
+                                                  <children>
+                                                      <RadioButton fx:id="RadBnd20Skvoznoi" mnemonicParsing="false" selected="true" text="По сквозному">
+                                                          <toggleGroup>
+                                                              <ToggleGroup fx:id="ToggleBnd20" />
+                                                          </toggleGroup>
+                                                      </RadioButton>
+                                                      <RadioButton fx:id="RadBnd20Nomzakl" mnemonicParsing="false" text="По номеру заключения" toggleGroup="$ToggleBnd20" />
+                                                  </children>
+                                              </HBox>
+                                              <Button fx:id="ButBnd20VentOpen" layoutX="257.0" layoutY="364.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <Button fx:id="ButBnd20VentSave" layoutX="350.0" layoutY="364.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
+                                              <Label layoutX="32.0" layoutY="364.0" text="Вентсистемы">
+                                                  <font>
+                                                      <Font size="16.0" />
+                                                  </font>
+                                              </Label>
+                                              <Button fx:id="ButBnd20AEOpen" layoutX="257.0" layoutY="400.0" mnemonicParsing="false" onAction="#clickbnd" text="Открыть" />
+                                              <Button fx:id="ButBnd20AESave" layoutX="350.0" layoutY="400.0" mnemonicParsing="false" onAction="#clickbnd" text="Скачать" />
+                                              <Label layoutX="32.0" layoutY="400.0" text="АЭ">
+                                                  <font>
+                                                      <Font size="16.0" />
+                                                  </font>
+                                              </Label>
+                                          </children>
+                                      </AnchorPane>
+                                  </content>
+                              </Tab>
                             <Tab text="Мегион 2020">
                               <content>
                                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="850.0" prefWidth="580.0" style="-fx-background-color: white;">
