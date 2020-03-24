@@ -4,11 +4,17 @@ package sample;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.geometry.BoundingBox;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.Button;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
@@ -342,7 +348,18 @@ public class Controller {
     }
     public void kurva() {
         ButKurva.setOnAction(Event -> {
-            System.out.println(Zapros.Position);
+            Parent root = null;
+            try {
+                root = FXMLLoader.load(getClass().getResource("/SvodnayaBND2020.fxml"));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            Stage stage = new Stage();
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.setOpacity(1);
+            stage.setTitle("My New Stage Title");
+            stage.setScene(new Scene(root, 1920, 980));
+            stage.showAndWait();
         });
     }
 

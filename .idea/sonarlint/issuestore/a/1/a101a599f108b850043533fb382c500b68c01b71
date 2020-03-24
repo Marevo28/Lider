@@ -1,10 +1,10 @@
 
-E
-java:S1148/"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8©’Ş„.
-i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûç²I8©’Ş„.
 j	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£ìô¯8©’Ş„.
 H
 java:S1075,"&Remove this hard-coded path-delimiter.(ªºÿ¦şÿÿÿÿ8©’Ş„.
-U	java:S106*"9Replace this use of System.out or System.err by a logger.(ûŞ¾Â8©’Ş„.
 U	java:S106."9Replace this use of System.out or System.err by a logger.(Üñğÿ8©’Ş„.
+E
+java:S1148/"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8©’Ş„.
+U	java:S106*"9Replace this use of System.out or System.err by a logger.(ûŞ¾Â8©’Ş„.
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûç²I8©’Ş„.
 Z	java:S1064"9Replace this use of System.out or System.err by a logger.(Áë§¨şÿÿÿÿ8©’Ş„.
