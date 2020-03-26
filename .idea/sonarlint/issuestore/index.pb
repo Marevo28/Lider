@@ -15,3 +15,5 @@ m
 =src/main/java/sample/SvodnayaBND2020/MainSvodnayaBND2020.java,0\c\0c12727ebf92f23572b49889a5d6bf70fd4e600f
 i
 9src/main/java/sample/SvodnayaBND2020/PositionBND2020.java,2\1\21eac52603316b355b4b40df042307097362faba
+V
+&src/main/java/sample/dbConnection.java,1\0\10701fdae524ce5ee1f377d1eef98ba538636cc7
